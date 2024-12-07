@@ -1,165 +1,25 @@
-# 🚀 My Portfolio
+<h1 align="center">Hi 👋, I'm Nashid-k</h1>
+<h3 align="center">A passionate fullstack developer from India</h3>
 
-Welcome to my portfolio! Below you’ll find all my projects categorized based on the technology stack used. Some of them have live demos, and all of them are open-source on GitHub. Let's dive in!
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=nashid-k&label=Profile%20views&color=0e75b6&style=flat" alt="nashid-k" /> </p>
 
----
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nashid-k" alt="nashid-k" /></a> </p>
 
-## 🧑‍💻 Technologies I’ve Worked With
+- 📫 How to reach me **nashidk1999@gmail.com**
 
-Here's a quick look at the technologies and tools I've studied and used to build my projects:
+- ⚡ Fun fact **Turning challenges into creations**
 
-### **Languages & Tools**
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/https://www.linkedin.com/in/nashid-k-080909273/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/nashid-k-080909273/" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/https://leetcode.com/u/nashidk/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/u/nashidk/" height="30" width="40" /></a>
+</p>
 
-- **🔹 C Programming**
-  - Learned the fundamentals of programming, focusing on data structures, memory management, and low-level operations.
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
 
-- **💻 HTML & CSS**
-  - Mastered the core building blocks of web development, creating responsive and beautiful web pages using HTML and CSS.
-  - **Skills:** Flexbox, Grid, Media Queries, Responsive Design
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=nashid-k&show_icons=true&locale=en&layout=compact" alt="nashid-k" /></p>
 
-- **📱 Bootstrap**
-  - Built responsive web designs with the help of Bootstrap, making UI development faster and more efficient.
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=nashid-k&show_icons=true&locale=en" alt="nashid-k" /></p>
 
-- **🛠️ JavaScript (JS)**
-  - Used JavaScript for adding interactivity to websites and implementing dynamic web functionality.
-  - **Skills:** DOM Manipulation, Event Handling, ES6+
-
-- **⚙️ Node.js**
-  - Created server-side applications and APIs with Node.js, allowing me to build efficient and scalable web apps.
-
-- **💾 MongoDB**
-  - Built databases and designed data models with MongoDB for scalable and flexible storage solutions in web apps.
-
-- **🎨 Figma**
-  - Designed sleek and user-friendly UI/UX interfaces with Figma, collaborating on designs for web and mobile applications.
-
-- **📊 DSA (Data Structures & Algorithms)**
-  - Focused on solving algorithmic problems and optimized solutions using various data structures and algorithms.
-
-- **🔐 PostgreSQL (PSQL)**
-  - Managed and manipulated databases with PostgreSQL, performing complex queries, joins, and data optimization.
-
-- **🅾️ TypeScript**
-  - Enhanced my JavaScript projects by using TypeScript for static typing, improving code quality and reducing errors.
-
-- **⚛️ React.js**
-  - Developed modern, single-page applications with React, leveraging the power of component-based architecture.
-
-- **⚙️ Nginx**  
-  - Configured and used **Nginx** as a reverse proxy server and load balancer to serve web applications efficiently.
-  - **Skills:** Server Configuration, Load Balancing, Reverse Proxy
-
-- **📂 Git**
-  - Version-controlled all my projects using **Git** to track changes and collaborate with others on open-source projects.
-  - **Skills:** Git Commands, Branching, Merging, GitHub
-
----
-
-## 🎨 My Projects
-
-Here are some of my key projects organized by technology:
-
----
-
-### 💻 **Static Clones (HTML, CSS, and Bootstrap)**
-
-These are responsive static clones created with **HTML**, **CSS**, and **Bootstrap**.
-
-- **[Huawei Clone](https://github.com/Nashid-k/huawei)**  
-  A static website showcasing Huawei products with modern design.  
-  **Technologies Used:** HTML, CSS  
-  **Live Demo:** [View Demo](https://nashid-k.github.io/huawei/)
-
-- **[Kiwi Clone](https://github.com/Nashid-k/kiwi)**  
-  An ice cream-themed website built with HTML and CSS.  
-  **Technologies Used:** HTML, CSS  
-  **Live Demo:** [View Demo](https://nashid-k.github.io/kiwi/)
-
-- **[Parle Agro Appy Fizz Clone](https://github.com/Nashid-k/APPY-FIZZ-RESPONSIVE)**  
-  A fully responsive website using Bootstrap for Appy Fizz.  
-  **Technologies Used:** HTML, CSS, JavaScript, Bootstrap  
-  **Live Demo:** [View Demo](https://nashid-k.github.io/APPY-FIZZ-RESPONSIVE/)
-
----
-
-### 🛠️ **Dynamic Projects with Express.js**
-
-These projects involve backend technologies such as **Express.js** for creating APIs and server-side logic.
-
-- **[Login System (Node.js & Express)](https://github.com/Nashid-k/Login-System)**  
-  A simple login system built with **Node.js** and **Express**, featuring authentication and session management.  
-  **Technologies Used:** Node.js, Express.js, HTML, CSS  
-  **Repository:** [View Code](https://github.com/Nashid-k/Login-System)
-
-- **[User Management System](https://github.com/Nashid-k/User-Management_System)**  
-  A full-fledged user management system with the ability to add, update, and delete users.  
-  **Technologies Used:** Node.js, Express.js, MongoDB, EJS  
-  **Repository:** [View Code](https://github.com/Nashid-k/User-Management_System)
-
-- **[First E-commerce Project](https://github.com/Nashid-k/First_Project_Ecommerce)**  
-  An e-commerce website built with Express.js and MongoDB.  
-  **Technologies Used:** Express.js, MongoDB, EJS, CSS  
-  **Repository:** [View Code](https://github.com/Nashid-k/First_Project_Ecommerce)
-
----
-
-### 🌦️ **API Projects**
-
-These are projects that consume external APIs for dynamic functionality.
-
-- **[Weather App](https://github.com/Nashid-k/Weather-App)**  
-  A weather app that shows real-time weather information based on your location.  
-  **Technologies Used:** HTML, CSS, JavaScript  
-  **Live Demo:** [View Demo](https://nashid-k.github.io/Weather-App/)
-
----
-
-### ⚛️ **React Projects**
-
-Projects that use **React.js** for building modern, interactive web applications.
-
-- **[React Login UI](https://github.com/Nashid-k/react_login_ui)**  
-  A React-based login UI with form validation.  
-  **Technologies Used:** React.js, CSS  
-  **Repository:** [View Code](https://github.com/Nashid-k/react_login_ui)
-
----
-
-### 🧑‍💻 **TypeScript Projects**
-
-Projects built with **TypeScript** to leverage static typing and enhance the code quality.
-
-- **[Todo Application](https://github.com/Nashid-k/todo-app-typescript)**  
-  A simple todo app where users can manage their tasks efficiently.  
-  **Technologies Used:** TypeScript, HTML, CSS  
-  **Repository:** [View Code](https://github.com/Nashid-k/todo-app-typescript)
-
-- **[CRUD Application](https://github.com/Nashid-k/crud-app-typescript)**  
-  A CRUD (Create, Read, Update, Delete) app to manage data with TypeScript.  
-  **Technologies Used:** TypeScript, HTML, CSS  
-  **Repository:** [View Code](https://github.com/Nashid-k/crud-app-typescript)
-
----
-
-### 🎨 **Personal Projects**
-
-Here are a few of my personal projects showcasing my journey in web development.
-
-- **[Personal Website](https://github.com/Nashid-k/personal-website)**  
-  A personal website where I display my skills and portfolio.  
-  **Technologies Used:** HTML, CSS, JavaScript  
-  **Live Demo:** [View Demo](https://nashid-k.github.io/personal-website/)
-
----
-
-## 📫 How to Reach Me
-
-Feel free to reach out for collaborations, suggestions, or just to connect!
-
-- **GitHub:** [Nashid-k](https://github.com/Nashid-k)
-- **LinkedIn:** [Nashid K - LinkedIn](https://www.linkedin.com/in/nashid-k-080909273/)
-- **Portfolio (Coming Soon):** Stay tuned for updates!
-
----
-
-✨ **Thank you for visiting my portfolio! Feel free to explore my projects and reach out.**
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=nashid-k&" alt="nashid-k" /></p>
