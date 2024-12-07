@@ -1,6 +1,9 @@
-# 💫 About Me:
-Building smooth, interactive web experiences.<br>Creative projects that push the limits of web development.<br>New ways to improve app performance and create seamless user journeys.<br>Turning complex ideas into simple, intuitive solutions.<br>Crafting meaningful user experiences and tackling creative challenges.<br>I love turning coding challenges into creative solutions — and I’ve never backed down from a problem that seemed impossible!
-
+✨ Building smooth, interactive web experiences
+🎨 Creative projects that push the limits of web development
+🚀 Exploring new ways to improve app performance and create seamless user journeys
+🔍 Turning complex ideas into simple, intuitive solutions
+💡 Crafting meaningful user experiences and tackling creative challenges
+🔥 I love turning coding challenges into creative solutions — and I’ve never backed down from a problem that seemed impossible!
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/nashid-k-080909273/) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/https://in.pinterest.com/nashidbin/) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/https://x.com/Nashidk958) 
