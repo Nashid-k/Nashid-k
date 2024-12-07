@@ -1,3 +1,4 @@
+# 💫 About Me:<br>
 ✨ Building smooth, interactive web experiences<br>
 🎨 Creative projects that push the limits of web development<br>
 🚀 Exploring new ways to improve app performance and create seamless user journeys<br>
