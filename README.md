@@ -1,51 +1,55 @@
 <div align="center">
 
-<!-- Animated Header with Gradient -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Nashid%20K&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=35" />
+<!-- Epic Animated Header -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,12,6,2,14&height=250&section=header&text=NASHID%20K&fontSize=90&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20|%20Building%20The%20Future&descAlignY=55&descAlign=50" />
 
-<!-- Animated Typing -->
+<!-- Multiple Typing Animations -->
 <p>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=36BCF7FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Full+Stack+Developer+%F0%9F%9A%80;MERN+%2B+TypeScript+%E2%9A%A1;Crafting+Beautiful+Web+Experiences+%E2%9C%A8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2500&pause=800&color=00D9FF&center=true&vCenter=true&width=800&lines=%F0%9F%92%BB+Full+Stack+Developer;%E2%9A%A1+MERN+Stack+Specialist;%F0%9F%8E%A8+UI%2FUX+Enthusiast;%F0%9F%9A%80+Building+Scalable+Apps;%E2%98%95+Powered+by+Coffee+%26+Code" alt="Typing SVG" />
 </p>
 
-<!-- Animated Badges -->
+<!-- Glowing Social Badges -->
 <p>
-  <a href="your-portfolio"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white&labelColor=000000" /></a>
-  <a href="your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" /></a>
-  <a href="mailto:your-email"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" /></a>
-  <a href="your-twitter"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=000000" /></a>
+  <a href="your-portfolio"><img src="https://img.shields.io/badge/🌐_Portfolio-FF6B6B?style=for-the-badge&logoColor=white" /></a>
+  <a href="your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:your-email"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="your-twitter"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
+  <a href="your-github"><img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
-<!-- Profile Views with Animation -->
-<img src="https://komarev.com/ghpvc/?username=nashid-k&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="profile views" />
+<!-- Animated Counter -->
+<img src="https://komarev.com/ghpvc/?username=nashid-k&label=👀+Profile+Views&color=blueviolet&style=for-the-badge" />
+
+<!-- Animated Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 </div>
 
 ---
 
-<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
+<img align="right" width="400" src="https://camo.githubusercontent.com/5046cb083418fd1922b7f5990e594c3bb06f5d87e5082a36f1624c6a2a1f4ab3/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f76322f726573697a653a6669743a313336302f302a37513379765349765f7430696f4a2d5a2e676966" />
 
-### 👨‍💻 About Me
+### 🚀 About Me
 
 ```javascript
 const nashid = {
-    pronouns: "He" | "Him",
-    code: ["JavaScript", "TypeScript", "React", "Node.js"],
-    askMeAbout: ["web dev", "tech", "UI/UX", "music"],
-    technologies: {
-        frontEnd: {
-            js: ["React", "Redux", "Next.js"],
-            css: ["Tailwind", "Bootstrap", "Material-UI"]
-        },
-        backEnd: {
-            js: ["Node", "Express", "NestJS"],
-            databases: ["MongoDB", "PostgreSQL", "Redis"]
-        },
-        devOps: ["AWS", "Docker", "Nginx", "Vercel"],
-        tools: ["Git", "Postman", "VS Code", "Figma"]
+    location: "Bengaluru, India 🇮🇳",
+    role: "Full Stack Developer",
+    
+    workingOn: "Building scalable web applications",
+    learning: "TypeScript & Cloud Architecture",
+    
+    techStack: {
+        frontend: ["React", "JavaScript", "TypeScript", 
+                   "Redux", "Tailwind CSS", "Bootstrap"],
+        backend: ["Node.js", "Express.js", "MongoDB", "PostgreSQL"],
+        tools: ["Git", "AWS", "Docker", "Nginx", "Postman", "VS Code"]
     },
-    currentFocus: "Building scalable microservices",
-    funFact: "I debug with console.log() 🤓"
+    
+    hobbies: ["💻 Coding", "🎵 Music", "📚 Learning", "☕ Coffee"],
+    funFact: "I turn coffee into code ☕→💻",
+    
+    availability: "Open for collaboration 🤝"
 };
 ```
 
@@ -55,137 +59,155 @@ const nashid = {
 
 <div align="center">
 
-## 🛠️ Tech Arsenal
+## 🛠️ My Tech Arsenal
 
-<!-- Animated Tech Stack with Icons -->
-<p>
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,express,mongodb,postgres,redis,redux,nextjs,tailwind,bootstrap,aws,docker,nginx,git,postman,vscode,figma,linux&perline=10&theme=dark" />
-</p>
+<!-- Animated Skill Icons -->
+<img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,express,mongodb,postgres,redux,tailwind,bootstrap,html,css,aws,docker,nginx,git,github,postman,vscode,figma&perline=10" />
+
+</div>
+
+<!-- Fancy Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+---
+
+<div align="center">
+
+## 📊 GitHub Statistics
+
+<!-- Stats Cards with Custom Colors -->
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=nashid-k&show_icons=true&theme=algolia&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9&border_radius=15" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nashid-k&layout=compact&theme=algolia&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&border_radius=15&langs_count=8" />
+
+<!-- Streak Stats -->
+<img src="https://github-readme-streak-stats.herokuapp.com?user=nashid-k&theme=algolia&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=00D9FF&sideLabels=00D9FF&dates=7AA2F7&border_radius=15" />
 
 <!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=nashid-k&custom_title=Contribution%20Graph&bg_color=0D1117&color=36BCF7&line=36BCF7&point=FFFFFF&area_color=36BCF7&title_color=FFFFFF&area=true" alt="contribution graph">
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=nashid-k&theme=github-compact&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&area=true&hide_border=true&custom_title=📈%20Contribution%20Graph" />
 
 </div>
+
+<!-- Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ---
 
-## 📊 GitHub Analytics
-
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=nashid-k&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7&text_color=FFFFFF&count_private=true&include_all_commits=true" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=nashid-k&theme=radical&hide_border=true&background=0D1117&ring=36BCF7&fire=36BCF7&currStreakLabel=36BCF7" />
+
+## 🏆 GitHub Achievements
+
+<!-- Trophy Display -->
+<img src="https://github-profile-trophy.vercel.app/?username=nashid-k&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" />
+
 </div>
 
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nashid-k&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=36BCF7&text_color=FFFFFF&langs_count=8" />
-  <img width="49%" src="https://github-contributor-stats.vercel.app/api?username=nashid-k&limit=5&theme=radical&hide_border=true&bg_color=0D1117&title_color=36BCF7&text_color=FFFFFF&icon_color=36BCF7" />
-</div>
+<!-- Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ---
 
-## 🏆 GitHub Trophies
-
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=nashid-k&theme=radical&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="Trophy" />
+
+## 🎯 Coding Metrics
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github-readme-stats.vercel.app/api/wakatime?username=nashid-k&layout=compact&theme=algolia&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&border_radius=15&custom_title=⏱️%20Weekly%20Coding%20Time" />
+    </td>
+    <td align="center" width="50%">
+      
+  **💻 Most Used Languages**
+  
+  JavaScript ⭐⭐⭐⭐⭐  
+  TypeScript ⭐⭐⭐⭐  
+  CSS ⭐⭐⭐  
+  HTML ⭐⭐⭐  
+      
+</td>
+  </tr>
+</table>
+
 </div>
+
+<!-- Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ---
 
-## 🎯 Featured Projects
+<div align="center">
+
+## 💡 Dev Wisdom
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&animation=grow_out_in" />
+
+</div>
+
+<!-- Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+---
 
 <div align="center">
 
-<!-- Replace with your actual repos -->
-<a href="https://github.com/nashid-k/project-1">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nashid-k&repo=project-1&theme=radical&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" />
+## 🎨 Creative Showcase
+
+<!-- Custom Stats Grid -->
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://img.shields.io/badge/💻_Total_Commits-1000+-00D9FF?style=for-the-badge" />
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.shields.io/badge/⭐_Total_Stars-50+-FFD700?style=for-the-badge" />
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.shields.io/badge/🔥_Streak-10+_Days-FF6B6B?style=for-the-badge" />
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<!-- Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+---
+
+<div align="center">
+
+## 🤝 Let's Connect & Collaborate!
+
+**Open to:**  
+✅ Full Stack Projects • ✅ Open Source Contributions • ✅ Freelance Work • ✅ Tech Discussions
+
+<br>
+
+<img src="https://img.shields.io/badge/💬_Always_Learning-00D9FF?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🚀_Always_Building-FF6B6B?style=for-the-badge" />
+<img src="https://img.shields.io/badge/☕_Always_Caffeinated-FFD700?style=for-the-badge" />
+
+<br><br>
+
+### 📧 Reach Out
+
+<a href="mailto:your-email">
+  <img src="https://img.shields.io/badge/Send_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
-<a href="https://github.com/nashid-k/project-2">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nashid-k&repo=project-2&theme=radical&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" />
+<a href="your-linkedin">
+  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="your-portfolio">
+  <img src="https://img.shields.io/badge/Visit_Portfolio-FF6B6B?style=for-the-badge&logo=google-chrome&logoColor=white" />
 </a>
 
-</div>
+<br><br>
 
-<div align="center">
+**"First, solve the problem. Then, write the code."** – *John Johnson*
 
-<a href="https://github.com/nashid-k/project-3">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nashid-k&repo=project-3&theme=radical&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" />
-</a>
-<a href="https://github.com/nashid-k/project-4">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nashid-k&repo=project-4&theme=radical&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" />
-</a>
+<br>
 
-</div>
-
----
-
-## 📈 Coding Activity
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=@nashid-k&theme=radical&hide_border=true&bg_color=0D1117&title_color=36BCF7&text_color=FFFFFF&layout=compact" />
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nashid-k/nashid-k/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nashid-k/nashid-k/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/nashid-k/nashid-k/output/github-contribution-grid-snake.svg">
-</picture>
-
----
-
-<div align="center">
-
-### 💬 Random Dev Quote
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
-
-### 😂 Random Dev Meme
-
-<img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
-
----
-
-### 🎵 Spotify Playing
-
-<img src="https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_ID&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false" />
-
----
-
-### ✍️ Random Dev Quote
-
-![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=radical)
-
-</div>
-
----
-
-<div align="center">
-
-## 💰 Support My Work
-
-<a href="https://www.buymeacoffee.com/nashidk">
-  <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
-</a>
-<a href="https://ko-fi.com/nashidk">
-  <img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white" />
-</a>
-
-</div>
-
----
-
-<div align="center">
-
-### 🌐 Let's Connect & Build Together
-
-**"Code is poetry written in logic."** ✨
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
+<!-- Footer Wave -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,12,6,2,14&height=120&section=footer" />
 
 </div>
