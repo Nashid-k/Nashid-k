@@ -1,660 +1,302 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nashid K - Interactive Portfolio</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #0a0e27 100%);
-            color: #fff;
-            overflow-x: hidden;
-            min-height: 100vh;
-        }
-
-        /* Animated Background */
-        .bg-animation {
-            position: fixed;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            z-index: -1;
-            overflow: hidden;
-        }
-
-        .star {
-            position: absolute;
-            width: 2px;
-            height: 2px;
-            background: #fff;
-            border-radius: 50%;
-            animation: twinkle 3s infinite;
-        }
-
-        @keyframes twinkle {
-            0%, 100% { opacity: 0; }
-            50% { opacity: 1; }
-        }
-
-        /* Header */
-        header {
-            text-align: center;
-            padding: 60px 20px 40px;
-            background: rgba(26, 31, 58, 0.5);
-            backdrop-filter: blur(10px);
-            border-bottom: 2px solid rgba(0, 217, 255, 0.3);
-        }
-
-        .glitch {
-            font-size: 3.5rem;
-            font-weight: bold;
-            text-transform: uppercase;
-            position: relative;
-            color: #00d9ff;
-            letter-spacing: 3px;
-            animation: glitch 1s infinite;
-        }
-
-        @keyframes glitch {
-            0%, 100% { text-shadow: 2px 2px 0 #ff00de, -2px -2px 0 #00ff9f; }
-            25% { text-shadow: -2px 2px 0 #ff00de, 2px -2px 0 #00ff9f; }
-            50% { text-shadow: 2px -2px 0 #ff00de, -2px 2px 0 #00ff9f; }
-            75% { text-shadow: -2px -2px 0 #ff00de, 2px 2px 0 #00ff9f; }
-        }
-
-        .subtitle {
-            font-size: 1.3rem;
-            color: #a0a0ff;
-            margin-top: 10px;
-            animation: fadeIn 2s;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-
-        /* Navigation */
-        nav {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin-top: 30px;
-            flex-wrap: wrap;
-        }
-
-        .nav-btn {
-            padding: 12px 30px;
-            background: linear-gradient(135deg, #00d9ff 0%, #0099ff 100%);
-            border: none;
-            border-radius: 25px;
-            color: #fff;
-            font-size: 1rem;
-            font-weight: bold;
-            cursor: pointer;
-            transition: all 0.3s;
-            box-shadow: 0 5px 15px rgba(0, 217, 255, 0.3);
-        }
-
-        .nav-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(0, 217, 255, 0.5);
-        }
-
-        /* Main Container */
-        .container {
-            max-width: 1200px;
-            margin: 50px auto;
-            padding: 0 20px;
-        }
-
-        /* Game Section */
-        .game-section {
-            background: rgba(26, 31, 58, 0.7);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 40px;
-            margin-bottom: 40px;
-            border: 2px solid rgba(0, 217, 255, 0.3);
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
-        }
-
-        .game-title {
-            font-size: 2rem;
-            text-align: center;
-            margin-bottom: 20px;
-            color: #00d9ff;
-        }
-
-        .game-canvas {
-            width: 100%;
-            max-width: 600px;
-            height: 400px;
-            background: #0a0e27;
-            border: 3px solid #00d9ff;
-            border-radius: 10px;
-            margin: 0 auto;
-            display: block;
-            cursor: crosshair;
-        }
-
-        .game-controls {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 20px;
-            flex-wrap: wrap;
-        }
-
-        .game-btn {
-            padding: 15px 40px;
-            background: linear-gradient(135deg, #ff00de 0%, #ff0080 100%);
-            border: none;
-            border-radius: 25px;
-            color: #fff;
-            font-size: 1.1rem;
-            font-weight: bold;
-            cursor: pointer;
-            transition: all 0.3s;
-            box-shadow: 0 5px 15px rgba(255, 0, 222, 0.3);
-        }
-
-        .game-btn:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 25px rgba(255, 0, 222, 0.5);
-        }
-
-        .score-display {
-            text-align: center;
-            font-size: 1.5rem;
-            margin-top: 20px;
-            color: #00ff9f;
-        }
-
-        /* Leaderboard */
-        .leaderboard {
-            background: rgba(26, 31, 58, 0.7);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 30px;
-            margin-bottom: 40px;
-            border: 2px solid rgba(255, 0, 222, 0.3);
-        }
-
-        .leaderboard-title {
-            font-size: 1.8rem;
-            text-align: center;
-            margin-bottom: 20px;
-            color: #ff00de;
-        }
-
-        .leaderboard-list {
-            list-style: none;
-        }
-
-        .leaderboard-item {
-            background: rgba(0, 217, 255, 0.1);
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-left: 4px solid #00d9ff;
-            transition: all 0.3s;
-        }
-
-        .leaderboard-item:hover {
-            background: rgba(0, 217, 255, 0.2);
-            transform: translateX(5px);
-        }
-
-        .rank {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #ffd700;
-            min-width: 50px;
-        }
-
-        /* About Section */
-        .about-section {
-            background: rgba(26, 31, 58, 0.7);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 40px;
-            margin-bottom: 40px;
-            border: 2px solid rgba(0, 255, 159, 0.3);
-        }
-
-        .about-title {
-            font-size: 2rem;
-            margin-bottom: 20px;
-            color: #00ff9f;
-            text-align: center;
-        }
-
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 20px;
-            margin-top: 30px;
-        }
-
-        .skill-card {
-            background: rgba(0, 217, 255, 0.1);
-            padding: 20px;
-            border-radius: 15px;
-            text-align: center;
-            border: 2px solid rgba(0, 217, 255, 0.3);
-            transition: all 0.3s;
-        }
-
-        .skill-card:hover {
-            transform: translateY(-10px);
-            border-color: #00d9ff;
-            box-shadow: 0 10px 30px rgba(0, 217, 255, 0.3);
-        }
-
-        .skill-icon {
-            font-size: 3rem;
-            margin-bottom: 10px;
-        }
-
-        /* Modal */
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.8);
-            backdrop-filter: blur(5px);
-        }
-
-        .modal-content {
-            background: linear-gradient(135deg, #1a1f3a 0%, #0a0e27 100%);
-            margin: 10% auto;
-            padding: 40px;
-            border: 2px solid #00d9ff;
-            border-radius: 20px;
-            width: 90%;
-            max-width: 500px;
-            text-align: center;
-            animation: slideDown 0.3s;
-        }
-
-        @keyframes slideDown {
-            from { transform: translateY(-100px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
-
-        .modal input {
-            width: 100%;
-            padding: 15px;
-            margin: 20px 0;
-            border: 2px solid #00d9ff;
-            border-radius: 10px;
-            background: rgba(0, 217, 255, 0.1);
-            color: #fff;
-            font-size: 1rem;
-        }
-
-        .modal input:focus {
-            outline: none;
-            border-color: #ff00de;
-        }
-
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 30px;
-            background: rgba(26, 31, 58, 0.5);
-            backdrop-filter: blur(10px);
-            margin-top: 50px;
-        }
-
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 20px;
-        }
-
-        .social-btn {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, #00d9ff 0%, #0099ff 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-            text-decoration: none;
-            color: #fff;
-            transition: all 0.3s;
-        }
-
-        .social-btn:hover {
-            transform: rotate(360deg) scale(1.2);
-        }
-
-        @media (max-width: 768px) {
-            .glitch {
-                font-size: 2.5rem;
-            }
-            
-            .game-canvas {
-                height: 300px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <!-- Animated Background -->
-    <div class="bg-animation" id="bgAnimation"></div>
-
-    <!-- Header -->
-    <header>
-        <h1 class="glitch">NASHID K</h1>
-        <p class="subtitle">Full Stack Developer | MERN + TypeScript Specialist</p>
-        <nav>
-            <button class="nav-btn" onclick="scrollToSection('game')">🎮 Play Game</button>
-            <button class="nav-btn" onclick="scrollToSection('leaderboard')">🏆 Leaderboard</button>
-            <button class="nav-btn" onclick="scrollToSection('about')">👨‍💻 About Me</button>
-            <button class="nav-btn" onclick="scrollToSection('contact')">📧 Contact</button>
-        </nav>
-    </header>
-
-    <!-- Main Container -->
-    <div class="container">
-        <!-- Game Section -->
-        <div id="game" class="game-section">
-            <h2 class="game-title">🎯 Click Speed Challenge</h2>
-            <p style="text-align: center; margin-bottom: 20px;">Click the moving targets as fast as you can! You have 30 seconds.</p>
-            <canvas id="gameCanvas" class="game-canvas"></canvas>
-            <div class="score-display">
-                Score: <span id="score">0</span> | Time: <span id="timer">30</span>s
-            </div>
-            <div class="game-controls">
-                <button class="game-btn" onclick="startGame()">Start Game</button>
-                <button class="game-btn" onclick="resetGame()">Reset</button>
-            </div>
-        </div>
-
-        <!-- Leaderboard -->
-        <div id="leaderboard" class="leaderboard">
-            <h2 class="leaderboard-title">🏆 Top Players</h2>
-            <ul class="leaderboard-list" id="leaderboardList">
-                <li class="leaderboard-item">
-                    <span><span class="rank">1.</span> CodeMaster</span>
-                    <span style="color: #ffd700;">250 pts</span>
-                </li>
-                <li class="leaderboard-item">
-                    <span><span class="rank">2.</span> SpeedRunner</span>
-                    <span style="color: #c0c0c0;">180 pts</span>
-                </li>
-                <li class="leaderboard-item">
-                    <span><span class="rank">3.</span> ClickHero</span>
-                    <span style="color: #cd7f32;">150 pts</span>
-                </li>
-            </ul>
-        </div>
-
-        <!-- About Section -->
-        <div id="about" class="about-section">
-            <h2 class="about-title">💻 About Me</h2>
-            <p style="text-align: center; font-size: 1.1rem; line-height: 1.8; margin-bottom: 30px;">
-                I'm a passionate Full Stack Developer from Bengaluru, India. I specialize in building 
-                scalable web applications using the MERN stack and TypeScript. I love creating 
-                intuitive user interfaces and solving complex problems with clean, maintainable code.
-            </p>
-            
-            <h3 style="text-align: center; color: #00d9ff; margin-bottom: 20px;">🛠️ Tech Stack</h3>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <div class="skill-icon">⚛️</div>
-                    <div>React</div>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">📘</div>
-                    <div>TypeScript</div>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">🟢</div>
-                    <div>Node.js</div>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">⚡</div>
-                    <div>Express</div>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">🍃</div>
-                    <div>MongoDB</div>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">🐘</div>
-                    <div>PostgreSQL</div>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">🎨</div>
-                    <div>Tailwind CSS</div>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">☁️</div>
-                    <div>AWS</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Contact Footer -->
-    <footer id="contact">
-        <h3 style="color: #00d9ff; margin-bottom: 10px;">Let's Connect!</h3>
-        <p>Always open to interesting projects and collaborations</p>
-        <div class="social-links">
-            <a href="#" class="social-btn" title="GitHub">🔗</a>
-            <a href="#" class="social-btn" title="LinkedIn">💼</a>
-            <a href="#" class="social-btn" title="Email">📧</a>
-            <a href="#" class="social-btn" title="Twitter">🐦</a>
-        </div>
-        <p style="margin-top: 30px; color: #777;">© 2024 Nashid K | Built with 💙 and ☕</p>
-    </footer>
-
-    <!-- Name Input Modal -->
-    <div id="nameModal" class="modal">
-        <div class="modal-content">
-            <h2 style="color: #00d9ff; margin-bottom: 20px;">🎉 Great Score!</h2>
-            <p style="margin-bottom: 20px;">Enter your name for the leaderboard:</p>
-            <input type="text" id="playerName" placeholder="Your Name" maxlength="20">
-            <button class="game-btn" onclick="submitScore()">Submit Score</button>
-        </div>
-    </div>
-
-    <script>
-        // Background Animation
-        function createStars() {
-            const container = document.getElementById('bgAnimation');
-            for (let i = 0; i < 100; i++) {
-                const star = document.createElement('div');
-                star.className = 'star';
-                star.style.left = Math.random() * 100 + '%';
-                star.style.top = Math.random() * 100 + '%';
-                star.style.animationDelay = Math.random() * 3 + 's';
-                container.appendChild(star);
-            }
-        }
-        createStars();
-
-        // Smooth Scroll
-        function scrollToSection(id) {
-            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-        }
-
-        // Game Logic
-        const canvas = document.getElementById('gameCanvas');
-        const ctx = canvas.getContext('2d');
-        canvas.width = canvas.offsetWidth;
-        canvas.height = canvas.offsetHeight;
-
-        let score = 0;
-        let timeLeft = 30;
-        let gameActive = false;
-        let gameInterval;
-        let timerInterval;
-        let targets = [];
-
-        class Target {
-            constructor() {
-                this.radius = 20 + Math.random() * 30;
-                this.x = this.radius + Math.random() * (canvas.width - this.radius * 2);
-                this.y = this.radius + Math.random() * (canvas.height - this.radius * 2);
-                this.vx = (Math.random() - 0.5) * 4;
-                this.vy = (Math.random() - 0.5) * 4;
-                this.color = `hsl(${Math.random() * 360}, 70%, 50%)`;
-            }
-
-            draw() {
-                ctx.beginPath();
-                ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
-                ctx.fillStyle = this.color;
-                ctx.fill();
-                ctx.strokeStyle = '#fff';
-                ctx.lineWidth = 3;
-                ctx.stroke();
-            }
-
-            update() {
-                this.x += this.vx;
-                this.y += this.vy;
-
-                if (this.x + this.radius > canvas.width || this.x - this.radius < 0) {
-                    this.vx *= -1;
-                }
-                if (this.y + this.radius > canvas.height || this.y - this.radius < 0) {
-                    this.vy *= -1;
-                }
-            }
-        }
-
-        function startGame() {
-            if (gameActive) return;
-            
-            gameActive = true;
-            score = 0;
-            timeLeft = 30;
-            targets = [];
-            
-            for (let i = 0; i < 5; i++) {
-                targets.push(new Target());
-            }
-
-            document.getElementById('score').textContent = score;
-            document.getElementById('timer').textContent = timeLeft;
-
-            gameInterval = setInterval(gameLoop, 1000 / 60);
-            timerInterval = setInterval(() => {
-                timeLeft--;
-                document.getElementById('timer').textContent = timeLeft;
-                
-                if (timeLeft <= 0) {
-                    endGame();
-                }
-            }, 1000);
-        }
-
-        function gameLoop() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            
-            targets.forEach(target => {
-                target.update();
-                target.draw();
-            });
-        }
-
-        function endGame() {
-            gameActive = false;
-            clearInterval(gameInterval);
-            clearInterval(timerInterval);
-            
-            if (score > 0) {
-                document.getElementById('nameModal').style.display = 'block';
-            }
-        }
-
-        function resetGame() {
-            gameActive = false;
-            clearInterval(gameInterval);
-            clearInterval(timerInterval);
-            score = 0;
-            timeLeft = 30;
-            targets = [];
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            document.getElementById('score').textContent = score;
-            document.getElementById('timer').textContent = timeLeft;
-        }
-
-        canvas.addEventListener('click', (e) => {
-            if (!gameActive) return;
-
-            const rect = canvas.getBoundingClientRect();
-            const x = e.clientX - rect.left;
-            const y = e.clientY - rect.top;
-
-            for (let i = targets.length - 1; i >= 0; i--) {
-                const target = targets[i];
-                const dx = x - target.x;
-                const dy = y - target.y;
-                const distance = Math.sqrt(dx * dx + dy * dy);
-
-                if (distance < target.radius) {
-                    score += Math.floor(50 / target.radius * 10);
-                    document.getElementById('score').textContent = score;
-                    targets.splice(i, 1);
-                    targets.push(new Target());
-                    break;
-                }
-            }
-        });
-
-        function submitScore() {
-            const name = document.getElementById('playerName').value.trim();
-            if (!name) {
-                alert('Please enter your name!');
-                return;
-            }
-
-            const leaderboard = document.getElementById('leaderboardList');
-            const newEntry = document.createElement('li');
-            newEntry.className = 'leaderboard-item';
-            newEntry.innerHTML = `
-                <span><span class="rank">🆕</span> ${name}</span>
-                <span style="color: #00ff9f;">${score} pts</span>
-            `;
-            leaderboard.insertBefore(newEntry, leaderboard.firstChild);
-
-            document.getElementById('nameModal').style.display = 'none';
-            document.getElementById('playerName').value = '';
-            
-            scrollToSection('leaderboard');
-        }
-
-        // Close modal on outside click
-        window.onclick = function(event) {
-            const modal = document.getElementById('nameModal');
-            if (event.target == modal) {
-                modal.style.display = 'none';
-            }
-        }
-    </script>
-</body>
-</html>
+<div align="center">
+
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,30&height=300&section=header&text=NASHID%20K&fontSize=90&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20|%20MERN%20+%20TypeScript&descAlignY=55&descSize=20&descAlign=50)
+
+</div>
+
+<div align="center">
+  
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00F7F4&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=120&lines=%F0%9F%9A%80+Building+Scalable+Web+Applications;%E2%9A%A1+MERN+Stack+%2B+TypeScript+Specialist;%F0%9F%8E%A8+Crafting+Beautiful+User+Experiences;%E2%98%95+Powered+by+Coffee+%26+Code)](https://git.io/typing-svg)
+
+</div>
+
+---
+
+<div align="center">
+
+### 🌐 Connect With Me
+
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-FF6B6B?style=for-the-badge&logoColor=white)](your-portfolio-url)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](your-linkedin-url)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](your-twitter-url)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nashid-k)
+
+![Profile Views](https://komarev.com/ghpvc/?username=nashid-k&label=Visitors&color=blueviolet&style=for-the-badge)
+
+</div>
+
+---
+
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
+
+### 👨‍💻 About Me
+
+```typescript
+interface Developer {
+  name: string;
+  location: string;
+  role: string;
+  languages: string[];
+  currentFocus: string;
+  hobbies: string[];
+  availableFor: string[];
+}
+
+const nashid: Developer = {
+  name: "Nashid K",
+  location: "Bengaluru, India 🇮🇳",
+  role: "Full Stack Developer",
+  
+  languages: [
+    "JavaScript", 
+    "TypeScript", 
+    "HTML/CSS"
+  ],
+  
+  currentFocus: "Building microservices & cloud architecture",
+  
+  hobbies: [
+    "💻 Coding",
+    "🎵 Music", 
+    "📚 Learning",
+    "☕ Coffee"
+  ],
+  
+  availableFor: [
+    "Full-time opportunities",
+    "Freelance projects",
+    "Open source collaboration",
+    "Tech discussions"
+  ]
+};
+```
+
+<br clear="right"/>
+
+---
+
+<div align="center">
+
+## 🛠️ Tech Stack
+
+### Frontend
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+### Backend
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### Tools & Platforms
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+
+</div>
+
+---
+
+<div align="center">
+
+## 📊 GitHub Statistics
+
+<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=nashid-k&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00f7f4&icon_color=00f7f4&text_color=ffffff&border_radius=10"/>
+<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=nashid-k&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f7f4&text_color=ffffff&border_radius=10"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=nashid-k&theme=tokyonight&hide_border=true&background=0D1117&stroke=00f7f4&ring=00f7f4&fire=ff6b6b&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00f7f4&sideLabels=00f7f4&dates=ffffff&border_radius=10" />
+
+</div>
+
+---
+
+<div align="center">
+
+## 🏆 GitHub Trophies
+
+<img src="https://github-profile-trophy.vercel.app/?username=nashid-k&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&column=7&title=MultiLanguage,Commits,PullRequest,Repositories,Stars,Issues,Followers" />
+
+</div>
+
+---
+
+<div align="center">
+
+## 📈 Contribution Graph
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=nashid-k&theme=tokyo-night&bg_color=0d1117&color=00f7f4&line=00f7f4&point=ffffff&area=true&hide_border=true&custom_title=Contribution%20Activity" />
+
+</div>
+
+---
+
+<div align="center">
+
+## 💼 What I'm Working On
+
+```mermaid
+mindmap
+  root((Nashid K))
+    Full Stack Projects
+      E-commerce Platform
+      Social Media App
+      Portfolio Sites
+    Learning
+      Cloud Architecture
+      Microservices
+      System Design
+    Tech Stack
+      MERN
+      TypeScript
+      AWS & Docker
+    Open Source
+      Contributing
+      Building Tools
+      Community Support
+```
+
+</div>
+
+---
+
+<div align="center">
+
+## 📝 Latest Blog Posts
+
+<!-- BLOG-POST-LIST:START -->
+- 🚀 Building Scalable APIs with Node.js and Express
+- ⚡ TypeScript Best Practices for React Developers
+- 🎨 Creating Responsive UIs with Tailwind CSS
+- 🔐 JWT Authentication Implementation Guide
+- 📊 Database Optimization Techniques
+<!-- BLOG-POST-LIST:END -->
+
+</div>
+
+---
+
+<div align="center">
+
+## 🎯 Current Focus
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://img.shields.io/badge/Learning-00f7f4?style=for-the-badge&logoColor=white" /><br>
+      <b>Cloud Architecture</b><br>
+      AWS, Microservices, Docker
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.shields.io/badge/Building-ff6b6b?style=for-the-badge&logoColor=white" /><br>
+      <b>Full Stack Apps</b><br>
+      MERN + TypeScript Projects
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.shields.io/badge/Exploring-ffd700?style=for-the-badge&logoColor=white" /><br>
+      <b>System Design</b><br>
+      Scalable Architecture Patterns
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🎮 Fun Zone
+
+### 💻 Coding Stats
+
+```text
+💼 Total Commits         : 500+
+⭐ GitHub Stars          : 50+
+🔀 Pull Requests        : 100+
+📝 Code Reviews         : 200+
+⏰ Years Coding         : 3+
+🔥 Longest Streak       : 45 Days
+```
+
+### 🎲 Random Dev Quote
+
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&animation=grow_out_in&quoteCategory=programming)
+
+### 😄 Random Dev Joke
+
+![Jokes Card](https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder)
+
+</div>
+
+---
+
+<div align="center">
+
+## 🤝 Let's Connect!
+
+I'm always interested in:
+- 💼 New opportunities and collaborations
+- 🚀 Innovative project ideas
+- 🤝 Open source contributions
+- 💬 Tech discussions and knowledge sharing
+
+**"First, solve the problem. Then, write the code."** - John Johnson
+
+<br>
+
+### 💌 Reach Out
+
+<a href="mailto:your-email@example.com">
+  <img src="https://img.shields.io/badge/📧_Send_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+<a href="your-linkedin">
+  <img src="https://img.shields.io/badge/💼_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="your-portfolio">
+  <img src="https://img.shields.io/badge/🌐_Portfolio-FF6B6B?style=for-the-badge&logoColor=white" />
+</a>
+
+<br><br>
+
+### ☕ Support My Work
+
+<a href="https://www.buymeacoffee.com/nashidk">
+  <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+### 📅 Pinned Repositories
+
+[![Readme Card](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=nashid-k&repo=your-repo-1&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f7f4&icon_color=00f7f4&border_radius=10)](https://github.com/nashid-k/your-repo-1)
+[![Readme Card](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=nashid-k&repo=your-repo-2&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f7f4&icon_color=00f7f4&border_radius=10)](https://github.com/nashid-k/your-repo-2)
+
+</div>
+
+---
+
+<div align="center">
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,30&height=150&section=footer&text=Thanks%20for%20Visiting!&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=70)
+
+<img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
+
+**Made with 💙 and ☕ by Nashid K**
+
+</div>
