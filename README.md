@@ -1,213 +1,660 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nashid K - Interactive Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<!-- Epic Animated Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,12,6,2,14&height=250&section=header&text=NASHID%20K&fontSize=90&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20|%20Building%20The%20Future&descAlignY=55&descAlign=50" />
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #0a0e27 100%);
+            color: #fff;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
 
-<!-- Multiple Typing Animations -->
-<p>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2500&pause=800&color=00D9FF&center=true&vCenter=true&width=800&lines=%F0%9F%92%BB+Full+Stack+Developer;%E2%9A%A1+MERN+Stack+Specialist;%F0%9F%8E%A8+UI%2FUX+Enthusiast;%F0%9F%9A%80+Building+Scalable+Apps;%E2%98%95+Powered+by+Coffee+%26+Code" alt="Typing SVG" />
-</p>
+        /* Animated Background */
+        .bg-animation {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            overflow: hidden;
+        }
 
-<!-- Glowing Social Badges -->
-<p>
-  <a href="your-portfolio"><img src="https://img.shields.io/badge/🌐_Portfolio-FF6B6B?style=for-the-badge&logoColor=white" /></a>
-  <a href="your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:your-email"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="your-twitter"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
-  <a href="your-github"><img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white" /></a>
-</p>
+        .star {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: #fff;
+            border-radius: 50%;
+            animation: twinkle 3s infinite;
+        }
 
-<!-- Animated Counter -->
-<img src="https://komarev.com/ghpvc/?username=nashid-k&label=👀+Profile+Views&color=blueviolet&style=for-the-badge" />
+        @keyframes twinkle {
+            0%, 100% { opacity: 0; }
+            50% { opacity: 1; }
+        }
 
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+        /* Header */
+        header {
+            text-align: center;
+            padding: 60px 20px 40px;
+            background: rgba(26, 31, 58, 0.5);
+            backdrop-filter: blur(10px);
+            border-bottom: 2px solid rgba(0, 217, 255, 0.3);
+        }
 
-</div>
+        .glitch {
+            font-size: 3.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            position: relative;
+            color: #00d9ff;
+            letter-spacing: 3px;
+            animation: glitch 1s infinite;
+        }
 
----
+        @keyframes glitch {
+            0%, 100% { text-shadow: 2px 2px 0 #ff00de, -2px -2px 0 #00ff9f; }
+            25% { text-shadow: -2px 2px 0 #ff00de, 2px -2px 0 #00ff9f; }
+            50% { text-shadow: 2px -2px 0 #ff00de, -2px 2px 0 #00ff9f; }
+            75% { text-shadow: -2px -2px 0 #ff00de, 2px 2px 0 #00ff9f; }
+        }
 
-<img align="right" width="400" src="https://camo.githubusercontent.com/5046cb083418fd1922b7f5990e594c3bb06f5d87e5082a36f1624c6a2a1f4ab3/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f76322f726573697a653a6669743a313336302f302a37513379765349765f7430696f4a2d5a2e676966" />
+        .subtitle {
+            font-size: 1.3rem;
+            color: #a0a0ff;
+            margin-top: 10px;
+            animation: fadeIn 2s;
+        }
 
-### 🚀 About Me
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
 
-```javascript
-const nashid = {
-    location: "Bengaluru, India 🇮🇳",
-    role: "Full Stack Developer",
-    
-    workingOn: "Building scalable web applications",
-    learning: "TypeScript & Cloud Architecture",
-    
-    techStack: {
-        frontend: ["React", "JavaScript", "TypeScript", 
-                   "Redux", "Tailwind CSS", "Bootstrap"],
-        backend: ["Node.js", "Express.js", "MongoDB", "PostgreSQL"],
-        tools: ["Git", "AWS", "Docker", "Nginx", "Postman", "VS Code"]
-    },
-    
-    hobbies: ["💻 Coding", "🎵 Music", "📚 Learning", "☕ Coffee"],
-    funFact: "I turn coffee into code ☕→💻",
-    
-    availability: "Open for collaboration 🤝"
-};
-```
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
 
-<br clear="right"/>
+        .nav-btn {
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #00d9ff 0%, #0099ff 100%);
+            border: none;
+            border-radius: 25px;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 5px 15px rgba(0, 217, 255, 0.3);
+        }
 
----
+        .nav-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0, 217, 255, 0.5);
+        }
 
-<div align="center">
+        /* Main Container */
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
 
-## 🛠️ My Tech Arsenal
+        /* Game Section */
+        .game-section {
+            background: rgba(26, 31, 58, 0.7);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 40px;
+            border: 2px solid rgba(0, 217, 255, 0.3);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+        }
 
-<!-- Animated Skill Icons -->
-<img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,express,mongodb,postgres,redux,tailwind,bootstrap,html,css,aws,docker,nginx,git,github,postman,vscode,figma&perline=10" />
+        .game-title {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #00d9ff;
+        }
 
-</div>
+        .game-canvas {
+            width: 100%;
+            max-width: 600px;
+            height: 400px;
+            background: #0a0e27;
+            border: 3px solid #00d9ff;
+            border-radius: 10px;
+            margin: 0 auto;
+            display: block;
+            cursor: crosshair;
+        }
 
-<!-- Fancy Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+        .game-controls {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
 
----
+        .game-btn {
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #ff00de 0%, #ff0080 100%);
+            border: none;
+            border-radius: 25px;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 5px 15px rgba(255, 0, 222, 0.3);
+        }
 
-<div align="center">
+        .game-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(255, 0, 222, 0.5);
+        }
 
-## 📊 GitHub Statistics
+        .score-display {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-top: 20px;
+            color: #00ff9f;
+        }
 
-<!-- Stats Cards with Custom Colors -->
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=nashid-k&show_icons=true&theme=algolia&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9&border_radius=15" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nashid-k&layout=compact&theme=algolia&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&border_radius=15&langs_count=8" />
+        /* Leaderboard */
+        .leaderboard {
+            background: rgba(26, 31, 58, 0.7);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 40px;
+            border: 2px solid rgba(255, 0, 222, 0.3);
+        }
 
-<!-- Streak Stats -->
-<img src="https://github-readme-streak-stats.herokuapp.com?user=nashid-k&theme=algolia&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=00D9FF&sideLabels=00D9FF&dates=7AA2F7&border_radius=15" />
+        .leaderboard-title {
+            font-size: 1.8rem;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #ff00de;
+        }
 
-<!-- Activity Graph -->
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=nashid-k&theme=github-compact&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&area=true&hide_border=true&custom_title=📈%20Contribution%20Graph" />
+        .leaderboard-list {
+            list-style: none;
+        }
 
-</div>
+        .leaderboard-item {
+            background: rgba(0, 217, 255, 0.1);
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-left: 4px solid #00d9ff;
+            transition: all 0.3s;
+        }
 
-<!-- Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+        .leaderboard-item:hover {
+            background: rgba(0, 217, 255, 0.2);
+            transform: translateX(5px);
+        }
 
----
+        .rank {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ffd700;
+            min-width: 50px;
+        }
 
-<div align="center">
+        /* About Section */
+        .about-section {
+            background: rgba(26, 31, 58, 0.7);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 40px;
+            border: 2px solid rgba(0, 255, 159, 0.3);
+        }
 
-## 🏆 GitHub Achievements
+        .about-title {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #00ff9f;
+            text-align: center;
+        }
 
-<!-- Trophy Display -->
-<img src="https://github-profile-trophy.vercel.app/?username=nashid-k&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" />
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
 
-</div>
+        .skill-card {
+            background: rgba(0, 217, 255, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            border: 2px solid rgba(0, 217, 255, 0.3);
+            transition: all 0.3s;
+        }
 
-<!-- Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+        .skill-card:hover {
+            transform: translateY(-10px);
+            border-color: #00d9ff;
+            box-shadow: 0 10px 30px rgba(0, 217, 255, 0.3);
+        }
 
----
+        .skill-icon {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
 
-<div align="center">
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(5px);
+        }
 
-## 🎯 Coding Metrics
+        .modal-content {
+            background: linear-gradient(135deg, #1a1f3a 0%, #0a0e27 100%);
+            margin: 10% auto;
+            padding: 40px;
+            border: 2px solid #00d9ff;
+            border-radius: 20px;
+            width: 90%;
+            max-width: 500px;
+            text-align: center;
+            animation: slideDown 0.3s;
+        }
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/wakatime?username=nashid-k&layout=compact&theme=algolia&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&border_radius=15&custom_title=⏱️%20Weekly%20Coding%20Time" />
-    </td>
-    <td align="center" width="50%">
-      
-  **💻 Most Used Languages**
-  
-  JavaScript ⭐⭐⭐⭐⭐  
-  TypeScript ⭐⭐⭐⭐  
-  CSS ⭐⭐⭐  
-  HTML ⭐⭐⭐  
-      
-</td>
-  </tr>
-</table>
+        @keyframes slideDown {
+            from { transform: translateY(-100px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
 
-</div>
+        .modal input {
+            width: 100%;
+            padding: 15px;
+            margin: 20px 0;
+            border: 2px solid #00d9ff;
+            border-radius: 10px;
+            background: rgba(0, 217, 255, 0.1);
+            color: #fff;
+            font-size: 1rem;
+        }
 
-<!-- Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+        .modal input:focus {
+            outline: none;
+            border-color: #ff00de;
+        }
 
----
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: rgba(26, 31, 58, 0.5);
+            backdrop-filter: blur(10px);
+            margin-top: 50px;
+        }
 
-<div align="center">
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
 
-## 💡 Dev Wisdom
+        .social-btn {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #00d9ff 0%, #0099ff 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: #fff;
+            transition: all 0.3s;
+        }
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&animation=grow_out_in" />
+        .social-btn:hover {
+            transform: rotate(360deg) scale(1.2);
+        }
 
-</div>
+        @media (max-width: 768px) {
+            .glitch {
+                font-size: 2.5rem;
+            }
+            
+            .game-canvas {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation" id="bgAnimation"></div>
 
-<!-- Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+    <!-- Header -->
+    <header>
+        <h1 class="glitch">NASHID K</h1>
+        <p class="subtitle">Full Stack Developer | MERN + TypeScript Specialist</p>
+        <nav>
+            <button class="nav-btn" onclick="scrollToSection('game')">🎮 Play Game</button>
+            <button class="nav-btn" onclick="scrollToSection('leaderboard')">🏆 Leaderboard</button>
+            <button class="nav-btn" onclick="scrollToSection('about')">👨‍💻 About Me</button>
+            <button class="nav-btn" onclick="scrollToSection('contact')">📧 Contact</button>
+        </nav>
+    </header>
 
----
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Game Section -->
+        <div id="game" class="game-section">
+            <h2 class="game-title">🎯 Click Speed Challenge</h2>
+            <p style="text-align: center; margin-bottom: 20px;">Click the moving targets as fast as you can! You have 30 seconds.</p>
+            <canvas id="gameCanvas" class="game-canvas"></canvas>
+            <div class="score-display">
+                Score: <span id="score">0</span> | Time: <span id="timer">30</span>s
+            </div>
+            <div class="game-controls">
+                <button class="game-btn" onclick="startGame()">Start Game</button>
+                <button class="game-btn" onclick="resetGame()">Reset</button>
+            </div>
+        </div>
 
-<div align="center">
+        <!-- Leaderboard -->
+        <div id="leaderboard" class="leaderboard">
+            <h2 class="leaderboard-title">🏆 Top Players</h2>
+            <ul class="leaderboard-list" id="leaderboardList">
+                <li class="leaderboard-item">
+                    <span><span class="rank">1.</span> CodeMaster</span>
+                    <span style="color: #ffd700;">250 pts</span>
+                </li>
+                <li class="leaderboard-item">
+                    <span><span class="rank">2.</span> SpeedRunner</span>
+                    <span style="color: #c0c0c0;">180 pts</span>
+                </li>
+                <li class="leaderboard-item">
+                    <span><span class="rank">3.</span> ClickHero</span>
+                    <span style="color: #cd7f32;">150 pts</span>
+                </li>
+            </ul>
+        </div>
 
-## 🎨 Creative Showcase
+        <!-- About Section -->
+        <div id="about" class="about-section">
+            <h2 class="about-title">💻 About Me</h2>
+            <p style="text-align: center; font-size: 1.1rem; line-height: 1.8; margin-bottom: 30px;">
+                I'm a passionate Full Stack Developer from Bengaluru, India. I specialize in building 
+                scalable web applications using the MERN stack and TypeScript. I love creating 
+                intuitive user interfaces and solving complex problems with clean, maintainable code.
+            </p>
+            
+            <h3 style="text-align: center; color: #00d9ff; margin-bottom: 20px;">🛠️ Tech Stack</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">⚛️</div>
+                    <div>React</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📘</div>
+                    <div>TypeScript</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🟢</div>
+                    <div>Node.js</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <div>Express</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🍃</div>
+                    <div>MongoDB</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🐘</div>
+                    <div>PostgreSQL</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <div>Tailwind CSS</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">☁️</div>
+                    <div>AWS</div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<!-- Custom Stats Grid -->
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/💻_Total_Commits-1000+-00D9FF?style=for-the-badge" />
-    </td>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/⭐_Total_Stars-50+-FFD700?style=for-the-badge" />
-    </td>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/🔥_Streak-10+_Days-FF6B6B?style=for-the-badge" />
-    </td>
-  </tr>
-</table>
+    <!-- Contact Footer -->
+    <footer id="contact">
+        <h3 style="color: #00d9ff; margin-bottom: 10px;">Let's Connect!</h3>
+        <p>Always open to interesting projects and collaborations</p>
+        <div class="social-links">
+            <a href="#" class="social-btn" title="GitHub">🔗</a>
+            <a href="#" class="social-btn" title="LinkedIn">💼</a>
+            <a href="#" class="social-btn" title="Email">📧</a>
+            <a href="#" class="social-btn" title="Twitter">🐦</a>
+        </div>
+        <p style="margin-top: 30px; color: #777;">© 2024 Nashid K | Built with 💙 and ☕</p>
+    </footer>
 
-</div>
+    <!-- Name Input Modal -->
+    <div id="nameModal" class="modal">
+        <div class="modal-content">
+            <h2 style="color: #00d9ff; margin-bottom: 20px;">🎉 Great Score!</h2>
+            <p style="margin-bottom: 20px;">Enter your name for the leaderboard:</p>
+            <input type="text" id="playerName" placeholder="Your Name" maxlength="20">
+            <button class="game-btn" onclick="submitScore()">Submit Score</button>
+        </div>
+    </div>
 
-<!-- Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+    <script>
+        // Background Animation
+        function createStars() {
+            const container = document.getElementById('bgAnimation');
+            for (let i = 0; i < 100; i++) {
+                const star = document.createElement('div');
+                star.className = 'star';
+                star.style.left = Math.random() * 100 + '%';
+                star.style.top = Math.random() * 100 + '%';
+                star.style.animationDelay = Math.random() * 3 + 's';
+                container.appendChild(star);
+            }
+        }
+        createStars();
 
----
+        // Smooth Scroll
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+        }
 
-<div align="center">
+        // Game Logic
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+        canvas.width = canvas.offsetWidth;
+        canvas.height = canvas.offsetHeight;
 
-## 🤝 Let's Connect & Collaborate!
+        let score = 0;
+        let timeLeft = 30;
+        let gameActive = false;
+        let gameInterval;
+        let timerInterval;
+        let targets = [];
 
-**Open to:**  
-✅ Full Stack Projects • ✅ Open Source Contributions • ✅ Freelance Work • ✅ Tech Discussions
+        class Target {
+            constructor() {
+                this.radius = 20 + Math.random() * 30;
+                this.x = this.radius + Math.random() * (canvas.width - this.radius * 2);
+                this.y = this.radius + Math.random() * (canvas.height - this.radius * 2);
+                this.vx = (Math.random() - 0.5) * 4;
+                this.vy = (Math.random() - 0.5) * 4;
+                this.color = `hsl(${Math.random() * 360}, 70%, 50%)`;
+            }
 
-<br>
+            draw() {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                ctx.fillStyle = this.color;
+                ctx.fill();
+                ctx.strokeStyle = '#fff';
+                ctx.lineWidth = 3;
+                ctx.stroke();
+            }
 
-<img src="https://img.shields.io/badge/💬_Always_Learning-00D9FF?style=for-the-badge" />
-<img src="https://img.shields.io/badge/🚀_Always_Building-FF6B6B?style=for-the-badge" />
-<img src="https://img.shields.io/badge/☕_Always_Caffeinated-FFD700?style=for-the-badge" />
+            update() {
+                this.x += this.vx;
+                this.y += this.vy;
 
-<br><br>
+                if (this.x + this.radius > canvas.width || this.x - this.radius < 0) {
+                    this.vx *= -1;
+                }
+                if (this.y + this.radius > canvas.height || this.y - this.radius < 0) {
+                    this.vy *= -1;
+                }
+            }
+        }
 
-### 📧 Reach Out
+        function startGame() {
+            if (gameActive) return;
+            
+            gameActive = true;
+            score = 0;
+            timeLeft = 30;
+            targets = [];
+            
+            for (let i = 0; i < 5; i++) {
+                targets.push(new Target());
+            }
 
-<a href="mailto:your-email">
-  <img src="https://img.shields.io/badge/Send_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="your-linkedin">
-  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="your-portfolio">
-  <img src="https://img.shields.io/badge/Visit_Portfolio-FF6B6B?style=for-the-badge&logo=google-chrome&logoColor=white" />
-</a>
+            document.getElementById('score').textContent = score;
+            document.getElementById('timer').textContent = timeLeft;
 
-<br><br>
+            gameInterval = setInterval(gameLoop, 1000 / 60);
+            timerInterval = setInterval(() => {
+                timeLeft--;
+                document.getElementById('timer').textContent = timeLeft;
+                
+                if (timeLeft <= 0) {
+                    endGame();
+                }
+            }, 1000);
+        }
 
-**"First, solve the problem. Then, write the code."** – *John Johnson*
+        function gameLoop() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            targets.forEach(target => {
+                target.update();
+                target.draw();
+            });
+        }
 
-<br>
+        function endGame() {
+            gameActive = false;
+            clearInterval(gameInterval);
+            clearInterval(timerInterval);
+            
+            if (score > 0) {
+                document.getElementById('nameModal').style.display = 'block';
+            }
+        }
 
-<!-- Footer Wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,12,6,2,14&height=120&section=footer" />
+        function resetGame() {
+            gameActive = false;
+            clearInterval(gameInterval);
+            clearInterval(timerInterval);
+            score = 0;
+            timeLeft = 30;
+            targets = [];
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            document.getElementById('score').textContent = score;
+            document.getElementById('timer').textContent = timeLeft;
+        }
 
-</div>
+        canvas.addEventListener('click', (e) => {
+            if (!gameActive) return;
+
+            const rect = canvas.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+
+            for (let i = targets.length - 1; i >= 0; i--) {
+                const target = targets[i];
+                const dx = x - target.x;
+                const dy = y - target.y;
+                const distance = Math.sqrt(dx * dx + dy * dy);
+
+                if (distance < target.radius) {
+                    score += Math.floor(50 / target.radius * 10);
+                    document.getElementById('score').textContent = score;
+                    targets.splice(i, 1);
+                    targets.push(new Target());
+                    break;
+                }
+            }
+        });
+
+        function submitScore() {
+            const name = document.getElementById('playerName').value.trim();
+            if (!name) {
+                alert('Please enter your name!');
+                return;
+            }
+
+            const leaderboard = document.getElementById('leaderboardList');
+            const newEntry = document.createElement('li');
+            newEntry.className = 'leaderboard-item';
+            newEntry.innerHTML = `
+                <span><span class="rank">🆕</span> ${name}</span>
+                <span style="color: #00ff9f;">${score} pts</span>
+            `;
+            leaderboard.insertBefore(newEntry, leaderboard.firstChild);
+
+            document.getElementById('nameModal').style.display = 'none';
+            document.getElementById('playerName').value = '';
+            
+            scrollToSection('leaderboard');
+        }
+
+        // Close modal on outside click
+        window.onclick = function(event) {
+            const modal = document.getElementById('nameModal');
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
