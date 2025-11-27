@@ -1,241 +1,176 @@
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=75&duration=2000&pause=500&color=00F7F7&center=true&vCenter=true&multiline=false&repeat=true&width=800&height=100&lines=NASHID+K;%F0%9F%9A%80+DEVELOPER;%E2%9C%A8+CREATOR;%F0%9F%8E%AF+INNOVATOR" alt="Typing SVG" />
+</h1>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+</p>
+
 <div align="center">
-
-![MasterHead](https://user-images.githubusercontent.com/74038190/241765440-80728820-e06b-4f96-9c9e-9df46f0cc0a5.gif)
-
-# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> Hey, I'm Nashid K
-
-### 🚀 Full Stack Developer | 🎨 UI/UX Enthusiast | ⚡ MERN Stack Specialist
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=36BCF7FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=700&height=100&lines=Building+elegant+web+experiences+%F0%9F%92%BB;Turning+coffee+into+code+%E2%98%95%E2%9E%A1%EF%B8%8F%F0%9F%92%BB;Always+learning%2C+always+growing+%F0%9F%8C%B1)](https://git.io/typing-svg)
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-[![Portfolio](https://custom-icon-badges.demolab.com/badge/Portfolio-FF6B6B?style=for-the-badge&logo=browser&logoColor=white)](your-portfolio)
-[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin-white&logoColor=white)](your-linkedin)
-[![Email](https://custom-icon-badges.demolab.com/badge/Email-EA4335?style=for-the-badge&logo=mail&logoColor=white)](mailto:your-email)
-[![Twitter](https://custom-icon-badges.demolab.com/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](your-twitter)
-
-![Profile Views](https://komarev.com/ghpvc/?username=nashid-k&label=Profile%20Views&color=brightgreen&style=flat-square)
-![Stars](https://img.shields.io/github/stars/nashid-k?label=Total%20Stars&style=flat-square&color=yellow)
-![Followers](https://img.shields.io/github/followers/nashid-k?label=Followers&style=flat-square&color=blue)
-
+  
+  [![Portfolio](https://img.shields.io/badge/🌐_PORTFOLIO-00f7f7?style=for-the-badge&logoColor=black)](your-portfolio)
+  [![LinkedIn](https://img.shields.io/badge/💼_LINKEDIN-0077B5?style=for-the-badge&logoColor=white)](your-linkedin)
+  [![Email](https://img.shields.io/badge/📧_EMAIL-EA4335?style=for-the-badge&logoColor=white)](mailto:your-email)
+  [![Twitter](https://img.shields.io/badge/🐦_TWITTER-1DA1F2?style=for-the-badge&logoColor=white)](your-twitter)
+  
+  <img src="https://komarev.com/ghpvc/?username=nashid-k&style=for-the-badge&color=00f7f7&label=VISITORS"/>
+  
 </div>
 
----
+<br/>
 
-<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif">
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
+</p>
 
-## 🎯 About Me
+<br/>
 
-```javascript
-class NashidK extends Developer {
-  constructor() {
-    this.name = "Nashid K";
-    this.location = "Bengaluru 🇮🇳";
-    this.role = "Full Stack Developer";
-    
-    this.dailyRoutine = {
-      coffee: "☕☕☕",
-      code: "💻💻💻",
-      debug: "🐛🔧",
-      learn: "📚🧠"
-    };
-    
-    this.lifePhilosophy = "Code is poetry written in logic";
-  }
-  
-  getCurrentWork() {
-    return [
-      "🔨 Building scalable web applications",
-      "🎨 Crafting beautiful user interfaces",
-      "📖 Learning cloud architecture",
-      "🤝 Contributing to open source"
-    ];
-  }
-  
-  getSkills() {
-    return {
-      frontend: ["React", "TypeScript", "Redux", "Tailwind"],
-      backend: ["Node.js", "Express", "MongoDB", "PostgreSQL"],
-      tools: ["Git", "AWS", "Nginx", "Postman"]
-    };
-  }
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> ABOUT ME
+
+<img align="right" width="400" src="https://user-images.githubusercontent.com/74038190/229223156-0cbdaba9-3128-4d8e-8719-b6b4cf741b67.gif">
+
+```typescript
+interface Developer {
+  name: string;
+  location: string;
+  role: string;
+  passion: string[];
+  currentlyLearning: string[];
+  funFact: string;
 }
+
+const nashid: Developer = {
+  name: "Nashid K",
+  location: "Bengaluru, India 🇮🇳",
+  role: "Full Stack Developer",
+  
+  passion: [
+    "💻 Crafting elegant code",
+    "🎨 Building beautiful UIs",
+    "🚀 Creating user experiences",
+    "🌱 Continuous learning"
+  ],
+  
+  currentlyLearning: [
+    "System Design Patterns",
+    "Cloud Architecture",
+    "Advanced TypeScript",
+    "Microservices"
+  ],
+  
+  funFact: "I debug faster after coffee ☕"
+};
 ```
 
 <br clear="right"/>
 
----
+<br/>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
+</p>
+
+<br/>
+
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> TECH STACK
 
 <div align="center">
 
-## 🛠️ Tech Arsenal
+### Frontend Technologies
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
 
-<table>
+### Backend Technologies
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+
+### Tools & Cloud
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/> <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/> <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+
+</div>
+
+<br/>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
+</p>
+
+<br/>
+
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> GITHUB STATS
+
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=nashid-k&show_icons=true&theme=algolia&hide_border=true&bg_color=0D1117&title_color=00f7f7&icon_color=00f7f7&text_color=ffffff&ring_color=00f7f7"/>
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=nashid-k&theme=algolia&hide_border=true&background=0D1117&stroke=00f7f7&ring=00f7f7&fire=ff6b6b&currStreakLabel=00f7f7&sideLabels=00f7f7&currStreakNum=ffffff&sideNums=ffffff"/>
+</div>
+
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nashid-k&layout=compact&theme=algolia&hide_border=true&bg_color=0D1117&title_color=00f7f7&text_color=ffffff&langs_count=10"/>
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nashid-k&theme=algolia&utcOffset=5.5"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nashid-k&custom_title=Contribution%20Activity&bg_color=0D1117&color=00f7f7&line=00f7f7&point=ffffff&area=true&hide_border=true" width="100%"/>
+</div>
+
+<br/>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
+</p>
+
+<br/>
+
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> ACHIEVEMENTS
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=nashid-k&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15"/>
+</div>
+
+<br/>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
+</p>
+
+<br/>
+
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> WHAT I'M BUILDING
+
+<table align="center">
 <tr>
-<td align="center" width="100">
-<img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="55" height="55" />
-<br>JavaScript
-</td>
-<td align="center" width="100">
-<img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="55" height="55" />
-<br>TypeScript
-</td>
-<td align="center" width="100">
-<img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="55" height="55" />
-<br>React
-</td>
-<td align="center" width="100">
-<img src="https://techstack-generator.vercel.app/redux-icon.svg" alt="icon" width="55" height="55" />
-<br>Redux
-</td>
-<td align="center" width="100">
-<img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="icon" width="55" height="55" />
-<br>Nginx
-</td>
-<td align="center" width="100">
-<img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="55" height="55" />
-<br>AWS
-</td>
-<td align="center" width="100">
-<img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="55" height="55" />
-<br>GitHub
-</td>
-</tr>
-<tr>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=nodejs" width="55" height="55" alt="Node.js" />
-<br>Node.js
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=express" width="55" height="55" alt="Express" />
-<br>Express
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=mongodb" width="55" height="55" alt="MongoDB" />
-<br>MongoDB
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=postgres" width="55" height="55" alt="PostgreSQL" />
-<br>PostgreSQL
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=tailwind" width="55" height="55" alt="Tailwind" />
-<br>Tailwind
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=bootstrap" width="55" height="55" alt="Bootstrap" />
-<br>Bootstrap
-</td>
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=postman" width="55" height="55" alt="Postman" />
-<br>Postman
-</td>
-</tr>
-</table>
+<td width="50%">
 
-</div>
+### 🎯 Current Focus
+```yaml
+projects:
+  - E-Commerce Platform
+  - Real-Time Chat App
+  - Portfolio Website
+  - API Development
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
-
-<div align="center">
-
-## 📊 GitHub Analytics
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=nashid-k&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F85D7F&text_bold=false" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=nashid-k&theme=radical&hide_border=true&background=0D1117&stroke=F85D7F&ring=F85D7F&fire=F85D7F&currStreakLabel=F85D7F" />
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nashid-k&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_bold=false" />
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=nashid-k&bg_color=0D1117&color=F85D7F&line=F85D7F&point=FFFFFF&hide_border=true&custom_title=Contribution%20Graph" />
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
-
-<div align="center">
-
-## 🏆 Achievement Showcase
-
-<img src="https://github-profile-trophy.vercel.app/?username=nashid-k&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" />
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
-
-<div align="center">
-
-## 🎨 Current Projects Vibes
-
-```mermaid
-%%{init: {'theme':'dark'}}%%
-graph LR
-    A[💡 Ideas] -->|Design| B[🎨 Figma]
-    B -->|Code| C[⚛️ React]
-    C -->|Backend| D[🟢 Node.js]
-    D -->|Database| E[🍃 MongoDB]
-    E -->|Deploy| F[☁️ AWS]
-    F -->|Monitor| G[📊 Analytics]
-    G -->|Improve| A
-    
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#bbf,stroke:#333,stroke-width:2px
-    style C fill:#bfb,stroke:#333,stroke-width:2px
-    style D fill:#fbb,stroke:#333,stroke-width:2px
-    style E fill:#fbf,stroke:#333,stroke-width:2px
-    style F fill:#bff,stroke:#333,stroke-width:2px
-    style G fill:#ffb,stroke:#333,stroke-width:2px
-```
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
-
-<div align="center">
-
-## 🎯 What I'm Up To
-
-<table>
-<tr>
-<td align="center" width="33%">
-
-### 🔥 Learning
-```diff
-+ Cloud Architecture
-+ System Design
-+ Advanced TypeScript
-+ Microservices
+tech_exploring:
+  - System Design
+  - Cloud Patterns
+  - Performance Optimization
+  - Security Best Practices
 ```
 
 </td>
-<td align="center" width="33%">
+<td width="50%">
 
-### 💻 Building
-```javascript
-{
-  type: "Full Stack",
-  focus: "User Experience",
-  stack: ["MERN", "TypeScript"],
-  status: "In Progress 🚀"
-}
-```
-
-</td>
-<td align="center" width="33%">
-
-### 🌱 Growing
+### 📚 Learning Path
 ```python
-skills = {
-    'technical': ['coding', 'design'],
-    'soft': ['communication', 'teamwork'],
-    'mindset': 'always_learning'
+learning_journey = {
+    'now': [
+        'TypeScript Advanced Patterns',
+        'AWS Services',
+        'System Architecture'
+    ],
+    'next': [
+        'GraphQL',
+        'CI/CD Pipelines',
+        'Testing Strategies'
+    ],
+    'goal': 'Master Full Stack Development'
 }
 ```
 
@@ -243,224 +178,258 @@ skills = {
 </tr>
 </table>
 
-</div>
+<br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
+</p>
 
----
+<br/>
 
-<div align="center">
-
-## 💭 Developer Wisdom
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> PROJECT SHOWCASE
 
 <div align="center">
 
-## 😄 Daily Dose of Humor
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<img src="https://readme-jokes.vercel.app/api?theme=radical&hideBorder" alt="Jokes Card" />
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
-
-<div align="center">
-
-## 📈 Weekly Development Breakdown
-
-<!--START_SECTION:waka-->
-```text
-JavaScript   12 hrs 30 mins  ████████████░░░░░   45.2%
-TypeScript   8 hrs 15 mins   ████████░░░░░░░░░   29.8%
-CSS          3 hrs 20 mins   ███░░░░░░░░░░░░░░   12.1%
-JSON         2 hrs 10 mins   ██░░░░░░░░░░░░░░░    7.8%
-Markdown     1 hr 25 mins    █░░░░░░░░░░░░░░░░    5.1%
-```
-<!--END_SECTION:waka-->
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
-
-<div align="center">
-
-## 🌟 Featured Work
-
-<details>
-<summary><b>🚀 E-Commerce Platform</b></summary>
-<br>
-<img align="right" width="350" src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif">
-
-**Tech Stack:**
-- ⚛️ React + TypeScript
-- 🟢 Node.js + Express
-- 🍃 MongoDB
-- 💳 Payment Integration
-- 🔐 JWT Authentication
+### 🛒 E-Commerce Platform
+<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100%">
 
 **Features:**
-- 🛒 Shopping Cart
-- 💰 Payment Gateway
-- 📱 Responsive Design
-- 🔍 Product Search
+- 🔐 Secure Authentication
+- 💳 Payment Integration
+- 📱 Fully Responsive
+- 🛍️ Product Management
 - ⭐ Reviews & Ratings
 
-</details>
+**Tech:** React • Node.js • MongoDB • Stripe
 
-<details>
-<summary><b>💬 Real-Time Chat Application</b></summary>
-<br>
-<img align="right" width="350" src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif">
+</td>
+<td width="50%" valign="top">
 
-**Tech Stack:**
-- ⚛️ React + Redux
-- 🟢 Socket.io
-- 🍃 MongoDB
-- 🎨 Tailwind CSS
+### 💬 Real-Time Chat
+<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100%">
 
 **Features:**
-- 💬 Real-time Messaging
-- 👥 Group Chats
+- 💬 Instant Messaging
+- 👥 Group Conversations
 - 📎 File Sharing
-- 🔔 Notifications
+- 🔔 Push Notifications
 - 🎨 Custom Themes
 
-</details>
+**Tech:** React • Socket.io • Express • MongoDB
 
-<details>
-<summary><b>📊 Dashboard Analytics</b></summary>
-<br>
-<img align="right" width="350" src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif">
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**Tech Stack:**
-- ⚛️ React + TypeScript
-- 📊 Chart.js
-- 🎨 Material-UI
-- 🔒 Role-based Access
+### 📊 Analytics Dashboard
+<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100%">
 
 **Features:**
-- 📈 Data Visualization
-- 📊 Custom Reports
+- 📈 Real-time Data Viz
 - 🎯 KPI Tracking
-- 📱 Responsive Charts
-- 🔐 Secure Access
+- 📊 Custom Reports
+- 🔒 Role-based Access
+- 📱 Mobile Support
 
-</details>
+**Tech:** React • Chart.js • PostgreSQL • AWS
 
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
-
-<div align="center">
-
-## 🎮 Fun Facts About Me
-
-<table>
-<tr>
-<td align="center" width="25%">
-<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="100">
-<br><b>Code Editor</b>
-<br>VS Code Dark Theme
 </td>
-<td align="center" width="25%">
-<img src="https://media.giphy.com/media/j0HjChGV0J44KrrlGv/giphy.gif" width="100">
-<br><b>Favorite Language</b>
-<br>JavaScript & TypeScript
-</td>
-<td align="center" width="25%">
-<img src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif" width="100">
-<br><b>Coffee Counter</b>
-<br>☕☕☕ Daily
-</td>
-<td align="center" width="25%">
-<img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="100">
-<br><b>Debug Style</b>
-<br>console.log() everything
+<td width="50%" valign="top">
+
+### 🎨 Portfolio Generator
+<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100%">
+
+**Features:**
+- ⚡ Lightning Fast
+- 🎨 Customizable Themes
+- 📱 Responsive Design
+- 🚀 SEO Optimized
+- 💾 Export Options
+
+**Tech:** React • TypeScript • Tailwind • Vercel
+
 </td>
 </tr>
 </table>
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<br/>
 
----
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
+</p>
+
+<br/>
+
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> DEVELOPMENT WORKFLOW
+
+```mermaid
+%%{init: {'theme':'dark', 'themeVariables': { 'primaryColor':'#00f7f7','primaryTextColor':'#fff','primaryBorderColor':'#00f7f7','lineColor':'#00f7f7','secondaryColor':'#006064','tertiaryColor':'#0D1117'}}}%%
+flowchart TB
+    A[💡 Idea] --> B[📝 Planning]
+    B --> C[🎨 Design]
+    C --> D[⚛️ Frontend Dev]
+    D --> E[🟢 Backend Dev]
+    E --> F[🧪 Testing]
+    F --> G{✅ Quality Check}
+    G -->|Pass| H[🚀 Deploy]
+    G -->|Fail| D
+    H --> I[📊 Monitor]
+    I --> J[🔄 Iterate]
+    J --> A
+    
+    style A fill:#00f7f7,stroke:#00f7f7,color:#000
+    style B fill:#006064,stroke:#00f7f7,color:#fff
+    style C fill:#00f7f7,stroke:#00f7f7,color:#000
+    style D fill:#006064,stroke:#00f7f7,color:#fff
+    style E fill:#00f7f7,stroke:#00f7f7,color:#000
+    style F fill:#006064,stroke:#00f7f7,color:#fff
+    style G fill:#ff6b6b,stroke:#ff6b6b,color:#fff
+    style H fill:#00f7f7,stroke:#00f7f7,color:#000
+    style I fill:#006064,stroke:#00f7f7,color:#fff
+    style J fill:#00f7f7,stroke:#00f7f7,color:#000
+```
+
+<br/>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
+</p>
+
+<br/>
+
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> CODING ACTIVITY
 
 <div align="center">
 
-## 💬 Let's Connect & Collaborate
+### 📅 This Week's Progress
 
-**I'm always excited to work on:**
-```yaml
-opportunities:
-  - Full-time positions
-  - Freelance projects
-  - Open source contributions
-  - Mentorship programs
-  - Tech community events
-
-interests:
-  - Web Development
-  - UI/UX Design
-  - System Architecture
-  - Problem Solving
-  - Continuous Learning
+```text
+JavaScript       ████████████████░░░░░░   70%
+TypeScript       ████████████░░░░░░░░░░   55%
+CSS/Tailwind     ████████░░░░░░░░░░░░░░   35%
+Database Work    ██████░░░░░░░░░░░░░░░░   25%
+Documentation    ████░░░░░░░░░░░░░░░░░░   20%
 ```
 
-<br>
+### 🔥 Contribution Heatmap
 
-### 📫 Reach Me At
+<img src="https://ghchart.rshah.org/00f7f7/nashid-k" alt="GitHub Contribution Chart" width="100%"/>
 
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](your-linkedin)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](your-twitter)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=google-chrome&logoColor=white)](your-portfolio)
+### ⏰ Productive Hours
 
-<br>
-
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nashid-k&theme=algolia" width="100%"/>
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<br/>
 
----
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
+</p>
+
+<br/>
+
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> FUN ZONE
 
 <div align="center">
 
-### ⚡ One Last Thing...
+### 💭 Quote of the Day
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border=true"/>
 
-<img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="20%">
+### 😄 Developer Humor
+<img src="https://readme-jokes.vercel.app/api?hideBorder&theme=dark&qColor=%2300f7f7&aColor=%23fff"/>
 
-**"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."** - Martin Fowler
+### 🎲 Random Dev Fact
+<img src="https://uselessfacts-api.herokuapp.com/api/v1/facts/today"/>
 
+</div>
+
+<br/>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
+</p>
+
+<br/>
+
+## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> LET'S CONNECT
+
+<div align="center">
+
+### 💬 I'm Open To
+
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="100">
+<br><b>Full-Time Roles</b>
+</td>
+<td align="center" width="25%">
+<img src="https://media.giphy.com/media/f9k1tV7HyORcngKF8v/giphy.gif" width="100">
+<br><b>Freelance Work</b>
+</td>
+<td align="center" width="25%">
+<img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100">
+<br><b>Open Source</b>
+</td>
+<td align="center" width="25%">
+<img src="https://media.giphy.com/media/jRf5fsn8G6YaogAWxn/giphy.gif" width="100">
+<br><b>Mentorship</b>
+</td>
+</tr>
+</table>
+
+### 📫 Contact Me
+
+<a href="mailto:your-email">
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+<a href="your-linkedin">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="your-twitter">
+  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
+</a>
+<a href="your-portfolio">
+  <img src="https://img.shields.io/badge/Portfolio-00f7f7?style=for-the-badge&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+### ☕ Support My Work
+
+<a href="https://www.buymeacoffee.com/nashidk">
+  <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"/>
+</a>
+<a href="https://ko-fi.com/nashidk">
+  <img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="50"> 
 <br>
-
-### 🎵 Now Playing
-
-[![Spotify](https://novatorem-nashid-k.vercel.app/api/spotify)](https://open.spotify.com/user/your-spotify-id)
-
+**Thanks for visiting! Let's build something amazing together!** 
 <br>
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="50">
 
-![Snake animation](https://raw.githubusercontent.com/nashid-k/nashid-k/output/github-contribution-grid-snake-dark.svg)
+</div>
 
-<br>
+<br/>
 
-**Thanks for visiting! Have a productive day! 🚀**
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling"/>
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
-
+<div align="center">
+  
+  **© 2024 Nashid K • Made with 💙 and ☕**
+  
 </div>
