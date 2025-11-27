@@ -1,64 +1,92 @@
 <div align="center">
 
-# 👋 Hey, I'm Nashid K
+<!-- Animated Header with Gradient -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Nashid%20K&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=35" />
 
-### Full Stack Developer crafting modern web experiences with **MERN + TypeScript**
+<!-- Animated Typing -->
+<p>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=36BCF7FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Full+Stack+Developer+%F0%9F%9A%80;MERN+%2B+TypeScript+%E2%9A%A1;Crafting+Beautiful+Web+Experiences+%E2%9C%A8" alt="Typing SVG" />
+</p>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-4BA3FF?style=for-the-badge&logo=google-chrome&logoColor=white)](your-portfolio-link)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](your-linkedin)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email)
+<!-- Animated Badges -->
+<p>
+  <a href="your-portfolio"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white&labelColor=000000" /></a>
+  <a href="your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" /></a>
+  <a href="mailto:your-email"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" /></a>
+  <a href="your-twitter"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=000000" /></a>
+</p>
+
+<!-- Profile Views with Animation -->
+<img src="https://komarev.com/ghpvc/?username=nashid-k&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="profile views" />
 
 </div>
 
 ---
 
-## 🚀 What I Do
+<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
-```typescript
+### 👨‍💻 About Me
+
+```javascript
 const nashid = {
-  code: ["JavaScript", "TypeScript", "React", "Node.js"],
-  focus: "Building intuitive UIs with clean, scalable architecture",
-  currently: "Deepening cloud deployment & advanced TypeScript patterns",
-  vibe: "Coffee + music + problem-solving"
+    pronouns: "He" | "Him",
+    code: ["JavaScript", "TypeScript", "React", "Node.js"],
+    askMeAbout: ["web dev", "tech", "UI/UX", "music"],
+    technologies: {
+        frontEnd: {
+            js: ["React", "Redux", "Next.js"],
+            css: ["Tailwind", "Bootstrap", "Material-UI"]
+        },
+        backEnd: {
+            js: ["Node", "Express", "NestJS"],
+            databases: ["MongoDB", "PostgreSQL", "Redis"]
+        },
+        devOps: ["AWS", "Docker", "Nginx", "Vercel"],
+        tools: ["Git", "Postman", "VS Code", "Figma"]
+    },
+    currentFocus: "Building scalable microservices",
+    funFact: "I debug with console.log() 🤓"
 };
 ```
 
-- 🎨 Obsessed with **micro-interactions** and smooth user experiences
-- ⚡ Optimizing render performance and component architecture
-- 🌱 Exploring **Next.js** and serverless patterns
-- 💬 Open to collaborations on innovative projects
+<br clear="right"/>
 
 ---
 
-## 🛠️ Tech Stack
-
 <div align="center">
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+## 🛠️ Tech Arsenal
+
+<!-- Animated Tech Stack with Icons -->
+<p>
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,express,mongodb,postgres,redis,redux,nextjs,tailwind,bootstrap,aws,docker,nginx,git,postman,vscode,figma,linux&perline=10&theme=dark" />
+</p>
+
+<!-- Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=nashid-k&custom_title=Contribution%20Graph&bg_color=0D1117&color=36BCF7&line=36BCF7&point=FFFFFF&area_color=36BCF7&title_color=FFFFFF&area=true" alt="contribution graph">
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=nashid-k&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nashid-k&layout=compact&theme=tokyonight&hide_border=true" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=nashid-k&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7&text_color=FFFFFF&count_private=true&include_all_commits=true" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=nashid-k&theme=radical&hide_border=true&background=0D1117&ring=36BCF7&fire=36BCF7&currStreakLabel=36BCF7" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nashid-k&theme=tokyonight&hide_border=true" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nashid-k&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=36BCF7&text_color=FFFFFF&langs_count=8" />
+  <img width="49%" src="https://github-contributor-stats.vercel.app/api?username=nashid-k&limit=5&theme=radical&hide_border=true&bg_color=0D1117&title_color=36BCF7&text_color=FFFFFF&icon_color=36BCF7" />
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=nashid-k&theme=radical&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="Trophy" />
 </div>
 
 ---
@@ -67,8 +95,71 @@ const nashid = {
 
 <div align="center">
 
-[![Project 1](https://github-readme-stats.vercel.app/api/pin/?username=nashid-k&repo=your-repo-name&theme=tokyonight&hide_border=true)](https://github.com/nashid-k/your-repo-name)
-[![Project 2](https://github-readme-stats.vercel.app/api/pin/?username=nashid-k&repo=your-repo-name-2&theme=tokyonight&hide_border=true)](https://github.com/nashid-k/your-repo-name-2)
+<!-- Replace with your actual repos -->
+<a href="https://github.com/nashid-k/project-1">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nashid-k&repo=project-1&theme=radical&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" />
+</a>
+<a href="https://github.com/nashid-k/project-2">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nashid-k&repo=project-2&theme=radical&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" />
+</a>
+
+</div>
+
+<div align="center">
+
+<a href="https://github.com/nashid-k/project-3">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nashid-k&repo=project-3&theme=radical&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" />
+</a>
+<a href="https://github.com/nashid-k/project-4">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nashid-k&repo=project-4&theme=radical&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" />
+</a>
+
+</div>
+
+---
+
+## 📈 Coding Activity
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=@nashid-k&theme=radical&hide_border=true&bg_color=0D1117&title_color=36BCF7&text_color=FFFFFF&layout=compact" />
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nashid-k/nashid-k/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nashid-k/nashid-k/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/nashid-k/nashid-k/output/github-contribution-grid-snake.svg">
+</picture>
+
+---
+
+<div align="center">
+
+### 💬 Random Dev Quote
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
+
+### 😂 Random Dev Meme
+
+<img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
+
+---
+
+### 🎵 Spotify Playing
+
+<img src="https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_ID&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false" />
+
+---
+
+### ✍️ Random Dev Quote
+
+![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=radical)
 
 </div>
 
@@ -76,10 +167,25 @@ const nashid = {
 
 <div align="center">
 
-### 💡 *"Code is like humor. When you have to explain it, it's bad."*
+## 💰 Support My Work
 
-![Profile Views](https://komarev.com/ghpvc/?username=nashid-k&color=4BA3FF&style=flat-square)
+<a href="https://www.buymeacoffee.com/nashidk">
+  <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
+</a>
+<a href="https://ko-fi.com/nashidk">
+  <img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white" />
+</a>
 
-**Thanks for visiting!** ⚡ Let's build something amazing together.
+</div>
+
+---
+
+<div align="center">
+
+### 🌐 Let's Connect & Build Together
+
+**"Code is poetry written in logic."** ✨
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
 
 </div>
