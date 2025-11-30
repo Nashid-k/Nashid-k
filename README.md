@@ -1,440 +1,253 @@
 <div align="center">
 
-# ✨ NASHID K ✨
+<!-- Hero Section with Gradient -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=NASHID%20K&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;MERN+%2B+TypeScript+Expert;Building+Scalable+Applications;Clean+Code+Enthusiast" alt="Typing SVG" />
+<!-- Animated Title -->
+<h1>
+  <img src="https://readme-typing-svg.demolab.com?font=Jetbrains+Mono&size=28&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=500&height=50&lines=Full+Stack+Developer+%F0%9F%9A%80;MERN+Stack+Specialist+%E2%9A%A1;TypeScript+Enthusiast+%F0%9F%92%99;Building+Scalable+Apps+%F0%9F%8F%97%EF%B8%8F" alt="Typing SVG" />
+</h1>
+
+<!-- Quick Links with Modern Style -->
+<p>
+  <a href="https://portfolio-3py8.vercel.app"><img src="https://img.shields.io/badge/🌐_Portfolio-4A5568?style=for-the-badge&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/nashid-k-080909273"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:nashidk1999@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://github.com/Nashid-k"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+</p>
+
+<img src="https://komarev.com/ghpvc/?username=Nashid-k&style=for-the-badge&color=blue"/>
 
 </div>
 
-```ascii
-╔═══════════════════════════════════════════════════════════════════╗
-║                                                                   ║
-║   💻 Developer  •  🚀 Builder  •  ⚡ Problem Solver               ║
-║                                                                   ║
-╚═══════════════════════════════════════════════════════════════════╝
-```
+<br/>
 
+<!-- About Section with Modern Card Design -->
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Now-00D9FF?style=flat-square)](https://portfolio-3py8.vercel.app)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/nashid-k-080909273)
-
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:nashidk1999@gmail.com)
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Nashid-k)
-
-![Views](https://komarev.com/ghpvc/?username=Nashid-k&style=flat-square&color=00D9FF)
+## 🎯 About Me
 
 </div>
 
-
----
-
-## 👨‍💻 WHO AM I?
-
-<table>
-<tr>
-<td width="60%">
-
-**Full Stack Developer** from **Kerala, India** 🇮🇳 building responsive, scalable applications with the **MERN stack & TypeScript**.
-
-```javascript
+```typescript
 const nashid = {
+  name: "Nashid K",
   location: "Kerala, India 🇮🇳",
   role: "Full Stack Developer",
-  focus: "MERN + TypeScript",
   
-  expertise: [
-    "🎨 Building intuitive UI/UX",
-    "⚡ Developing secure REST APIs",
-    "🏗️ Clean architecture & reusability",
-    "🚀 Deploying production apps",
-    "🔐 Authentication & security"
-  ],
-  
-  currentlyBuilding: [
-    "AI-powered web applications",
-    "E-commerce platforms",
-    "Real-time applications",
-    "Scalable backend systems"
-  ],
-  
-  experience: {
-    projects: "10+ applications",
-    focus: "Production-ready code",
-    passion: "Problem solving"
+  specialization: {
+    frontend: ["React", "TypeScript", "Redux Toolkit", "Tailwind CSS"],
+    backend: ["Node.js", "Express.js", "REST APIs", "JWT"],
+    database: ["MongoDB", "PostgreSQL", "Firebase"],
+    cloud: ["AWS", "Vercel", "Render"]
   },
   
-  workStyle: "Clean code • Fast learner • Team player"
+  passionateAbout: [
+    "Building intuitive user experiences",
+    "Writing clean, maintainable code",
+    "Solving complex problems",
+    "Learning new technologies"
+  ],
+  
+  currentFocus: "Developing production-ready web applications",
+  availableFor: "Full-time opportunities & freelance projects",
+  
+  funFact: "I turn coffee ☕ into code 💻"
 };
 ```
 
-</td>
-<td width="40%">
+<br/>
 
-<img src="https://user-images.githubusercontent.com/74038190/229223156-0cbdaba9-3128-4d8e-8719-b6b4cf741b67.gif" width="100%"/>
-
-**🎯 What I Do**
-
-> Translating business requirements into intuitive interfaces • Building secure APIs • Optimizing performance • Deploying to production
-
-</td>
-</tr>
-</table>
-
----
-
-## 🛠️ TECHNICAL SKILLS
-
+<!-- Tech Stack with Visual Grouping -->
 <div align="center">
 
-**Frontend Development**
+## 🛠️ Tech Stack
 
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Redux](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-**Backend Development**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-**Database & Storage**
-
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+### Backend & Database
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
-**Cloud & Deployment**
-
+### Tools & Cloud
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
-
-**Tools & More**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Razorpay](https://img.shields.io/badge/Razorpay-0C2451?style=for-the-badge&logo=razorpay&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 </div>
 
----
+<br/>
 
-## 📊 GITHUB STATISTICS
-
+<!-- GitHub Stats in a Grid Layout -->
 <div align="center">
+
+## 📊 GitHub Analytics
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=nashid-k&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=c9d1d9" alt="GitHub Stats"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=nashid-k&theme=react&hide_border=true&background=0D1117&stroke=3B82F6&ring=3B82F6&fire=FB923C&currStreakLabel=3B82F6" alt="GitHub Streak"/>
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nashid-k&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
+<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=nashid-k&theme=react-dark&hide_border=true&bg_color=0D1117&color=3B82F6&line=3B82F6&point=FFFFFF&area=true&custom_title=Contribution%20Graph" alt="Contribution Graph"/>
+
+</div>
+
+<br/>
+
+<!-- Highlights Section -->
+<div align="center">
+
+## 🌟 Highlights
+
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="60" height="60"/>
+<br/><br/>
+<strong>10+ Projects</strong>
+<br/><br/>
+Production-ready applications built with modern tech stack
+</td>
+<td align="center" width="33%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Locked%20with%20Key.png" width="60" height="60"/>
+<br/><br/>
+<strong>Security First</strong>
+<br/><br/>
+JWT authentication & secure API implementations
+</td>
+<td align="center" width="33%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="60" height="60"/>
+<br/><br/>
+<strong>Cloud Deployed</strong>
+<br/><br/>
+AWS, Vercel & Render deployment experience
+</td>
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+<!-- What I Do Section -->
+<div align="center">
+
+## 💼 What I Build
+
+</div>
 
 <table>
 <tr>
 <td width="50%">
 
-<img src="https://github-readme-stats.vercel.app/api?username=nashid-k&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=00D9FF&icon_color=00D9FF&text_color=ffffff&custom_title=GitHub%20Stats" width="100%"/>
+### 🎨 Frontend Excellence
+- ✨ Responsive & intuitive UI/UX
+- ⚡ React + TypeScript applications
+- 🎯 Redux for state management
+- 🎨 Tailwind CSS for modern styling
+- 📱 Mobile-first design approach
 
 </td>
 <td width="50%">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=nashid-k&theme=tokyonight&hide_border=true&background=1a1b27&stroke=00D9FF&ring=00D9FF&fire=ff6b6b&currStreakLabel=00D9FF&sideLabels=00D9FF&currStreakNum=ffffff&sideNums=ffffff" width="100%"/>
+### 🔧 Backend Power
+- 🚀 RESTful API development
+- 🔐 JWT authentication systems
+- 💾 MongoDB & PostgreSQL databases
+- 🔒 Role-based access control
+- 💳 Payment gateway integration
 
 </td>
 </tr>
 </table>
 
-<table>
-<tr>
-<td width="50%">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nashid-k&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=00D9FF&text_color=ffffff&langs_count=8" width="100%"/>
-
-</td>
-<td width="50%">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nashid-k&theme=tokyonight&utcOffset=5.5" width="100%"/>
-
-</td>
-</tr>
-</table>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=nashid-k&custom_title=Contribution%20Activity&bg_color=1a1b27&color=00D9FF&line=00D9FF&point=ffffff&area=true&hide_border=true" width="100%"/>
-
 <br/>
 
-### 🏆 Achievements
-
-<img src="https://github-profile-trophy.vercel.app/?username=nashid-k&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10"/>
-
-</div>
-
----
-
-## 🔄 DEVELOPMENT APPROACH
-
+<!-- Activity Timeline -->
 <div align="center">
 
-```mermaid
-%%{init: {'theme':'dark', 'themeVariables': { 'primaryColor':'#00D9FF','primaryTextColor':'#fff','primaryBorderColor':'#00D9FF','lineColor':'#00D9FF','secondaryColor':'#1a1b27','tertiaryColor':'#1a1b27'}}}%%
-flowchart LR
-    A[💡 Requirements] --> B[📝 Planning]
-    B --> C[🎨 UI/UX Design]
-    C --> D[⚛️ Frontend Development]
-    D --> E[🔐 Secure Backend APIs]
-    E --> F[🗄️ Database Design]
-    F --> G[🧪 Testing]
-    G --> H{✅ Quality Check}
-    H -->|Pass| I[🚀 Deploy to Production]
-    H -->|Refactor| D
-    I --> J[📊 Monitor & Optimize]
-    J --> K[🔄 Iterate]
-    
-    style A fill:#00D9FF,stroke:#00D9FF,color:#000
-    style B fill:#1a1b27,stroke:#00D9FF,color:#fff
-    style C fill:#00D9FF,stroke:#00D9FF,color:#000
-    style D fill:#1a1b27,stroke:#00D9FF,color:#fff
-    style E fill:#00D9FF,stroke:#00D9FF,color:#000
-    style F fill:#1a1b27,stroke:#00D9FF,color:#fff
-    style G fill:#00D9FF,stroke:#00D9FF,color:#000
-    style H fill:#ff6b6b,stroke:#ff6b6b,color:#fff
-    style I fill:#00D9FF,stroke:#00D9FF,color:#000
-    style J fill:#1a1b27,stroke:#00D9FF,color:#fff
-    style K fill:#00D9FF,stroke:#00D9FF,color:#000
-```
+## 📈 Coding Activity
 
-</div>
-
----
-
-## 💼 WHAT I BUILD
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🎯 Application Types
-
-```yaml
-web_applications:
-  - AI-Powered Tools
-  - E-Commerce Platforms
-  - Real-Time Systems
-  - Content Management
-  - Authentication Systems
-
-focus_areas:
-  - Responsive UI/UX
-  - Secure REST APIs
-  - Payment Integration
-  - Role-Based Access Control
-  - Cloud Deployment
-```
-
-</td>
-<td width="50%" valign="top">
-
-### 💼 Professional Experience
-
-```javascript
-const experience = {
-  current: "Full Stack Developer",
-  
-  skills: {
-    frontend: "React + TypeScript",
-    backend: "Node.js + Express",
-    database: "MongoDB + PostgreSQL",
-    deployment: "AWS + Vercel"
-  },
-  
-  achievements: [
-    "10+ production applications",
-    "Secure payment integrations",
-    "Clean, scalable architecture",
-    "Performance optimization"
-  ]
-};
-```
-
-</td>
-</tr>
-</table>
-
----
-
-## 📈 CODING ACTIVITY
-
-<div align="center">
-
-### 📅 Development Focus
-
-```text
-React Development      ██████████████████░░░░░   85%
-Node.js Backend        ████████████████░░░░░░░░   75%
-TypeScript             ███████████████░░░░░░░░░   70%
-Database Design        ██████████████░░░░░░░░░░   65%
-API Development        ████████████████░░░░░░░░   80%
-```
-
-### 🔥 Contribution Heatmap
-
-<img src="https://ghchart.rshah.org/00D9FF/nashid-k" alt="Contribution Chart" width="90%"/>
-
-### ⏰ Activity Timeline
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nashid-k&theme=tokyonight" width="90%"/>
-
-</div>
-
----
-
-## 💪 PROFESSIONAL STRENGTHS
-
-<table>
-<tr>
-<td align="center" width="25%">
-
-**🏗️ Clean Architecture**
-
-Reusable components  
-Modular design patterns  
-Scalable code structure
-
-</td>
-<td align="center" width="25%">
-
-**🔐 Security First**
-
-JWT authentication  
-Secure API endpoints  
-RBAC implementation
-
-</td>
-<td align="center" width="25%">
-
-**⚡ Performance Focus**
-
-Optimized workflows  
-Fast load times  
-Efficient queries
-
-</td>
-<td align="center" width="25%">
-
-**🚀 Production Ready**
-
-CI/CD pipelines  
-Cloud deployment  
-Monitoring & scaling
-
-</td>
-</tr>
-</table>
-
----
-
-## 📜 CERTIFICATIONS & LEARNING
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="50%">
-
-![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white)
-
-**JavaScript (Basic) Certificate**  
-Verified HackerRank Certification
-
-</td>
-<td align="center" width="50%">
-
-![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)
-
-**100+ Problems Solved**  
-Algorithms & Data Structures
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-## 🎲 FUN ZONE
-
-<div align="center">
-
-**💭 Developer Wisdom**
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
-
-**😄 Daily Motivation**
-
-<img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder"/>
-
-**☕ When I'm Coding**
-
-🎵 Music Playlist • ☕ Coffee Always • 🌙 Late Night Sessions  
-🐛 Debug Detective • 📚 Always Learning • 🚀 Ship Fast
-
-</div>
-
----
-
-## 🤝 LET'S CONNECT!
-
-<div align="center">
-
-### 💼 Open For Opportunities
-
-| 💻 **Full-Time Roles** | 🚀 **Freelance Projects** | 🤝 **Collaboration** |
-|:---:|:---:|:---:|
-| Full Stack Developer positions | Building production apps | Open source & team projects |
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nashid-k&theme=github_dark" width="100%"/>
 
 </div>
 
 <br/>
 
+<!-- Achievements Section -->
 <div align="center">
 
-### 📬 Get In Touch
+## 🏆 Achievements
 
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nashidk1999@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nashid-k-080909273)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nashid-k)
-[![Portfolio](https://img.shields.io/badge/Portfolio-00D9FF?style=for-the-badge&logoColor=white)](https://career-pulse-phi.vercel.app)
-
-<br/>
-
-### 💌 Current Status
-
-![Status](https://img.shields.io/badge/Status-Available%20for%20Work-brightgreen?style=for-the-badge)
-![Location](https://img.shields.io/badge/Location-Kerala%2C%20India-blue?style=for-the-badge)
-![Response](https://img.shields.io/badge/Response%20Time-24%20Hours-success?style=for-the-badge)
+<img src="https://github-profile-trophy.vercel.app/?username=nashid-k&theme=algolia&no-frame=true&no-bg=false&row=1&column=7&margin-w=10&margin-h=10" width="100%"/>
 
 </div>
 
----
+<br/>
 
+<!-- Contact Section -->
 <div align="center">
 
-**"First, solve the problem. Then, write the code." - John Johnson**
+## 📬 Let's Connect
+
+<p>
+  <strong>💼 Available for full-time opportunities and freelance projects</strong>
+</p>
+
+<p>
+  <a href="mailto:nashidk1999@gmail.com">
+    <img src="https://img.shields.io/badge/Email_Me-nashidk1999@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
+
+<p>
+  <a href="https://linkedin.com/in/nashid-k-080909273">
+    <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://portfolio-3py8.vercel.app">
+    <img src="https://img.shields.io/badge/View_Portfolio-3B82F6?style=for-the-badge&logoColor=white"/>
+  </a>
+</p>
 
 <br/>
 
-**Thanks for visiting! Let's build something amazing together!** 🚀
+### 💡 Quick Stats
+
+![Status](https://img.shields.io/badge/🟢_Available_for_Work-brightgreen?style=for-the-badge)
+![Location](https://img.shields.io/badge/📍_Kerala,_India-blue?style=for-the-badge)
+![Response](https://img.shields.io/badge/⚡_Quick_Responder-success?style=for-the-badge)
+
+</div>
 
 <br/>
 
-**© 2024 Nashid K • Full Stack Developer • MERN + TypeScript**
+<!-- Footer -->
+<div align="center">
+
+---
+
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="30"/> **Thanks for visiting!**
+
+*"Code is like humor. When you have to explain it, it's bad."* – Cory House
+
+<br/>
+
+**Let's build something amazing together!** 🚀
+
+<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
 
 </div>
