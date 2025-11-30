@@ -16,13 +16,18 @@
 
 <div align="center">
 
-[![Portfolio](https://portfolio-3py8.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Now-00D9FF?style=flat-square)](https://portfolio-3py8.vercel.app)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/nashid-k-080909273)
+
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:nashidk1999@gmail.com)
+
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Nashid-k)
-![Views](https://komarev.com/ghpvc/?username=nashid-k&style=flat-square&color=00D9FF)
+
+![Views](https://komarev.com/ghpvc/?username=Nashid-k&style=flat-square&color=00D9FF)
 
 </div>
+
 
 ---
 
