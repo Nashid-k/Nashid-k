@@ -215,9 +215,9 @@ const nashid: Engineer = {
 
 <br/><br/>
 
-<img height="175em" src="https://github-readme-stats.vercel.app/api?username=Nashid-k&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=000d05&title_color=00ff41&icon_color=00cc33&text_color=ccffcc&ring_color=00ff41"/>
+<img height="175em" src="https://github-readme-stats.vercel.app/api?username=Nashid-k&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=000d05&title_color=00ff41&icon_color=00cc33&text_color=ccffcc&ring_color=00ff41&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage"/>
 &nbsp;
-<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nashid-k&layout=compact&langs_count=6&hide_border=true&bg_color=000d05&title_color=00ff41&text_color=ccffcc"/>
+<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nashid-k&layout=compact&langs_count=6&hide_border=true&bg_color=000d05&title_color=00ff41&text_color=ccffcc&include_orgs=true"/>
 
 <br/><br/>
 
@@ -257,7 +257,7 @@ const nashid: Engineer = {
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Nashid-k&theme=matrix&no-bg=true&no-frame=true&column=7&margin-w=8&margin-h=8" width="98%" alt="Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Nashid-k&theme=darkhub&no-bg=false&no-frame=false&column=7&margin-w=8&margin-h=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" width="98%" alt="Trophies"/>
 
 </div>
 
