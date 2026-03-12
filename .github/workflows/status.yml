@@ -17,11 +17,11 @@ jobs:
         id: fetch-commit
         run: |
           COMMIT_MSG=$(curl -s https://api.github.com/repos/Nashid-k/axiom-e-learning/commits/main | jq -r '.commit.message' | head -n 1)
-          echo "msg=$COMMIT_MSG" >> $GITHUB_OUTPUT
+          # Use an environment variable for the commit message to avoid shell injection
+          echo "commit_msg=$COMMIT_MSG" >> $GITHUB_ENV
       - name: Update README
         run: |
-          MSG="${{ steps.fetch-commit.outputs.msg }}"
-          sed -i "s|<!-- STATUS:START -->.*<!-- STATUS:END -->|<!-- STATUS:START -->![](https://img.shields.io/badge/Building-${MSG// /%20}-00ff41?style=flat-square\&logo=github)<!-- STATUS:END -->|g" README.md
+          node scripts/status.mjs "$commit_msg"
       - name: Commit & Push
         run: |
           git config user.name github-actions
