@@ -9,7 +9,7 @@
 <div align="center">
 
 <!-- ANIMATED TYPING — punchy, no fluff -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=21&pause=1000&color=00FF41&center=true&vCenter=true&width=750&lines=Next.js+·+TypeScript+·+MongoDB+·+Redis+·+Docker;Turning+ideas+into+production-grade+systems.;Performance-obsessed.+Security-hardened.+AI-powered.;30%25+latency+cut.+99.9%25+uptime.+Zero+incidents." alt="Typing SVG" />
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=21&pause=1000&color=00FF41&center=true&vCenter=true&width=750&height=45&lines=Next.js+%C2%B7+TypeScript+%C2%B7+MongoDB+%C2%B7+Redis+%C2%B7+Docker;Turning+ideas+into+production-grade+systems.;Performance-obsessed.+Security-hardened.+AI-powered.;30%25+latency+cut.+99.9%25+uptime.+Zero+incidents." alt="Typing SVG" /></a>
 
 <br/>
 
@@ -192,21 +192,15 @@ const nashid: Engineer = {
 
 ---
 
-<!-- ══════════════════════ 3D CONTRIBUTION CALENDAR ══════════════════════ -->
+<!-- ══════════════════════ CONTRIBUTION CALENDAR ══════════════════════ -->
 
 <div align="center">
 
-### 🗓️ Contribution Calendar
+### 🗓️ Contribution Heatmap
 
 <br/>
 
-<!-- 3D Contribution Graph — uses github-profile-3d-contrib Action -->
-<!-- Setup: add GitHub Action from yoshi389111/github-profile-3d-contrib -->
-<!-- It generates this SVG automatically every day -->
-<img src="https://raw.githubusercontent.com/Nashid-k/Nashid-k/main/profile-3d-contrib/profile-night-green.svg" width="100%" alt="3D Contributions"/>
-
-<br/>
-<sub>⚙️ <em>To enable 3D graph: add <a href="https://github.com/yoshi389111/github-profile-3d-contrib">yoshi389111/github-profile-3d-contrib</a> GitHub Action to your profile repo</em></sub>
+<img src="https://ghchart.rshah.org/00ff41/Nashid-k" width="100%" alt="Nashid's Github chart" />
 
 </div>
 
