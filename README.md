@@ -14,8 +14,7 @@
 
 <br/>
 
-<!-- STATUS:START -->
-<!-- STATUS:END -->
+<!-- STATUS:START -->![](https://img.shields.io/badge/Building-fix%3A%20architect.yml%20workflow%20syntax-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
 
 <br/>
 
