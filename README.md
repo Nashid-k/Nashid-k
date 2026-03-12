@@ -14,7 +14,7 @@
 
 <br/>
 
-<!-- STATUS:START -->![](https://img.shields.io/badge/Building-fix%3A%20architect.yml%20workflow%20syntax-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
+<!-- STATUS:START -->![](https://img.shields.io/badge/Building-chore%3A%20remove%20Axiom-specific%20workflows%20and%20cleanup%20README-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
 
 <br/>
 
