@@ -1,56 +1,38 @@
-<!-- ████████████████████████████████████████████████████████████ -->
-<!--                  NASHID K — GITHUB PROFILE README              -->
-<!-- ████████████████████████████████████████████████████████████ -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--             NASHID K  —  GITHUB PROFILE  README                  -->
+<!--   Researched from the top GitHub profiles worldwide               -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+<!-- ANIMATED BANNER HEADER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,40:003311,80:006622,100:00ff41&height=220&section=header&text=Nashid%20K&fontSize=78&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Engineer%20%E2%80%94%20I%20build%20things%20that%20scale.&descSize=19&descColor=aaffcc&descAlignY=60&animation=twinkling"/>
 
 <div align="center">
 
-<!-- CINEMATIC HEADER -->
-<picture>
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,30:001a08,60:003311,100:00ff41&height=280&section=header&text=NASHID%20K&fontSize=90&fontColor=00ff41&fontAlignY=45&desc=engineer.%20builder.%20problem%20solver.&descAlignY=68&descSize=18&descColor=aaffcc&animation=fadeIn&stroke=00ff41&strokeWidth=2" width="100%" alt="Nashid K"/>
-</picture>
-
-<!-- ANIMATED TYPING -->
-<a href="https://github.com/Nashid-k">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=00FF41&background=00000000&center=true&vCenter=true&width=750&height=45&lines=Full-Stack+Engineer+%E2%80%94+I+build+things+that+last.;Next.js+%7C+TypeScript+%7C+MongoDB+%7C+Redis;Turned+raw+ideas+into+production+systems.;AI-powered+%7C+Performance-obsessed+%7C+Security-hardened.;30%25+latency+cut.+99.9%25+uptime.+0+incidents.;Currently+building+%E2%86%92+something+big+%F0%9F%9A%80" alt="Typing SVG" />
-</a>
+<!-- ANIMATED TYPING — punchy, no fluff -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=21&pause=1000&color=00FF41&center=true&vCenter=true&width=750&lines=Next.js+·+TypeScript+·+MongoDB+·+Redis+·+Docker;Turning+ideas+into+production-grade+systems.;Performance-obsessed.+Security-hardened.+AI-powered.;30%25+latency+cut.+99.9%25+uptime.+Zero+incidents." alt="Typing SVG" />
 
 <br/>
 
-<!-- SOCIAL LINKS -->
-<p>
-<a href="https://www.linkedin.com/in/nashid-k-080909273/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-%230A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=0A66C2" height="28"/>
-</a>
+<!-- VISITOR BADGE + SOCIAL ROW -->
+<a href="https://www.linkedin.com/in/nashid-k-080909273/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 &nbsp;
-<a href="mailto:nashid.connect@gmail.com">
-  <img src="https://img.shields.io/badge/nashid.connect%40gmail.com-%23EA4335?style=flat-square&logo=gmail&logoColor=white&labelColor=EA4335" height="28"/>
-</a>
+<a href="mailto:nashid.connect@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 &nbsp;
-<img src="https://komarev.com/ghpvc/?username=Nashid-k&style=flat-square&color=00ff41&label=visitors&labelColor=001a08" height="28"/>
-</p>
-
-<!-- SNAKE CONTRIBUTION ANIMATION -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"/>
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="contribution snake" width="100%"/>
-</picture>
+<img src="https://komarev.com/ghpvc/?username=Nashid-k&style=for-the-badge&color=00ff41&label=PROFILE+VIEWS&labelColor=001a08"/>
 
 </div>
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                    WHO I AM                            -->
-<!-- ═══════════════════════════════════════════════════════ -->
+<!-- ══════════════════════ ABOUT ══════════════════════ -->
 
 <br/>
 
 <table width="100%">
 <tr>
-<td width="55%" valign="top">
+<td width="52%" valign="top">
 
-### `~/nashid --init`
+### `> whoami`
 
 ```typescript
 const nashid: Engineer = {
@@ -58,12 +40,12 @@ const nashid: Engineer = {
   craft:   "building products users trust",
 
   stack: {
-    frontend:  ["Next.js", "React", "TypeScript", "Tailwind", "Framer"],
-    backend:   ["Node.js", "REST APIs", "NextAuth", "Zod"],
-    data:      ["MongoDB", "Mongoose", "Upstash Redis"],
-    ai:        ["LLM orchestration", "multi-key resilience"],
-    infra:     ["Vercel", "Docker", "Edge Functions"],
-    testing:   ["Jest", "React Testing Library"],
+    frontend : ["Next.js", "React", "TypeScript", "Tailwind", "Framer"],
+    backend  : ["Node.js", "REST APIs", "NextAuth", "Zod"],
+    data     : ["MongoDB", "Mongoose", "Upstash Redis"],
+    ai       : ["LLM orchestration", "multi-key resilience"],
+    infra    : ["Vercel", "Docker", "Edge Functions"],
+    testing  : ["Jest", "React Testing Library"],
   },
 
   principles: [
@@ -76,26 +58,26 @@ const nashid: Engineer = {
 ```
 
 </td>
-<td width="45%" valign="top" align="center">
+<td width="48%" valign="top" align="center">
 
-### `~/metrics --live`
+### `> ./metrics --live`
 
 <br/>
 
 ```
-╔══════════════════════════════╗
-║  API Latency Reduced   30%   ║
-╠══════════════════════════════╣
-║  Production Uptime    99.9%  ║
-╠══════════════════════════════╣
-║  Security Incidents      0   ║
-╠══════════════════════════════╣
-║  LLM Key Rotation Pool  10x  ║
-╠══════════════════════════════╣
-║  Reusable UI Components  21  ║
-╠══════════════════════════════╣
-║  API Route Groups        11  ║
-╚══════════════════════════════╝
+╔══════════════════════════════════╗
+║  ⚡ API Latency Reduced    30%   ║
+╠══════════════════════════════════╣
+║  🟢 Production Uptime     99.9%  ║
+╠══════════════════════════════════╣
+║  🛡️ Security Incidents       0   ║
+╠══════════════════════════════════╣
+║  🔁 LLM Key Pool           10×   ║
+╠══════════════════════════════════╣
+║  🎨 UI Components Built     21   ║
+╠══════════════════════════════════╣
+║  🔀 API Route Groups        11   ║
+╚══════════════════════════════════╝
 ```
 
 <br/>
@@ -112,116 +94,97 @@ const nashid: Engineer = {
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                  ENGINEERING DNA                       -->
-<!-- ═══════════════════════════════════════════════════════ -->
+<!-- ══════════════════════ SKILL ICONS ══════════════════════ -->
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000,40:001a08,100:003311&height=60&text=%E2%AC%A1%20%20HOW%20I%20ENGINEER&fontSize=22&fontColor=00ff41&animation=fadeIn" width="100%"/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0d0d,100:001a08&height=2&section=header" width="100%"/>
+
+### 🛠️ Tech Stack
+
+<br/>
+
+<!-- SKILL ICONS — uses skill-icons project, renders beautiful logo grid -->
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=ts,js,nextjs,react,tailwind,nodejs&theme=dark&perline=6" />
+</a>
+
+<br/><br/>
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=mongodb,redis,docker,vercel,jest,git&theme=dark&perline=6" />
+</a>
+
+<br/><br/>
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=vscode,github,figma,linux,postman,markdown&theme=dark&perline=6" />
+</a>
+
 </div>
 
 <br/>
 
-<table width="100%">
+---
+
+<!-- ══════════════════════ HOW I ENGINEER ══════════════════════ -->
+
+<div align="center">
+
+### ⚙️ Engineering DNA
+
+<br/>
+
+<table>
 <tr>
-<td align="center" width="16%">
-
-**🎯**<br/>
-**Precision**<br/>
-<sub>TypeScript end-to-end. Zod-validated APIs. No silent failures.</sub>
-
+<td align="center" width="160px">
+<img src="https://img.shields.io/badge/🎯-Precision-00ff41?style=flat-square&labelColor=001a08" /><br/>
+<sub>TypeScript end-to-end.<br/>Zod-validated APIs.<br/>No silent failures.</sub>
 </td>
-<td align="center" width="16%">
-
-**⚡**<br/>
-**Speed**<br/>
-<sub>Redis caching, RSC-first rendering, bundle analysis on every build.</sub>
-
+<td align="center" width="160px">
+<img src="https://img.shields.io/badge/⚡-Speed-00ff41?style=flat-square&labelColor=001a08" /><br/>
+<sub>Redis caching.<br/>RSC-first rendering.<br/>Bundle analysis every build.</sub>
 </td>
-<td align="center" width="16%">
-
-**🧱**<br/>
-**Architecture**<br/>
-<sub>Feature-based domains. Clean interfaces. Code that survives growth.</sub>
-
+<td align="center" width="160px">
+<img src="https://img.shields.io/badge/🧱-Architecture-00ff41?style=flat-square&labelColor=001a08" /><br/>
+<sub>Feature-based domains.<br/>Clean interfaces.<br/>Code that survives growth.</sub>
 </td>
-<td align="center" width="16%">
-
-**🛡️**<br/>
-**Security**<br/>
-<sub>HTTP headers. Rate limiting. Input validation. Zero-incident record.</sub>
-
+<td align="center" width="160px">
+<img src="https://img.shields.io/badge/🛡️-Security-00ff41?style=flat-square&labelColor=001a08" /><br/>
+<sub>HTTP headers.<br/>Rate limiting.<br/>Zero-incident record.</sub>
 </td>
-<td align="center" width="16%">
-
-**🤖**<br/>
-**AI Integration**<br/>
-<sub>LLMs as first-class infrastructure. Resilient, context-aware, fast.</sub>
-
+<td align="center" width="160px">
+<img src="https://img.shields.io/badge/🤖-AI_Systems-00ff41?style=flat-square&labelColor=001a08" /><br/>
+<sub>LLMs as infrastructure.<br/>Resilient & context-aware.<br/>Fast by design.</sub>
 </td>
-<td align="center" width="16%">
-
-**✅**<br/>
-**Quality**<br/>
-<sub>Jest + RTL on critical paths. Lint enforced. Deploys you can trust.</sub>
-
+<td align="center" width="160px">
+<img src="https://img.shields.io/badge/✅-Quality-00ff41?style=flat-square&labelColor=001a08" /><br/>
+<sub>Jest + RTL coverage.<br/>Lint enforced.<br/>Deploys you can trust.</sub>
 </td>
 </tr>
 </table>
 
-<br/>
-
----
-
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                    TECH BADGES                         -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000,40:001a08,100:003311&height=60&text=%E2%AC%A1%20%20STACK&fontSize=22&fontColor=00ff41&animation=fadeIn" width="100%"/>
-
-<br/><br/>
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer-0055FF?style=for-the-badge&logo=framer&logoColor=white)
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
-![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
-![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
-
 </div>
 
 <br/>
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                   GITHUB STATS                         -->
-<!-- ═══════════════════════════════════════════════════════ -->
+<!-- ══════════════════════ GITHUB STATS ══════════════════════ -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000,40:001a08,100:003311&height=60&text=%E2%AC%A1%20%20STATS&fontSize=22&fontColor=00ff41&animation=fadeIn" width="100%"/>
+### 📊 Stats
 
-<br/><br/>
+<br/>
 
-<img height="175em" src="https://github-readme-stats.vercel.app/api?username=Nashid-k&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=000d05&title_color=00ff41&icon_color=00cc33&text_color=ccffcc&ring_color=00ff41&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Nashid-k&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d0d0d&title_color=00ff41&icon_color=00cc33&text_color=ccffcc&ring_color=00ff41&hide=contribs"/>
 &nbsp;
-<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nashid-k&layout=compact&langs_count=6&hide_border=true&bg_color=000d05&title_color=00ff41&text_color=ccffcc&include_orgs=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nashid-k&layout=compact&langs_count=6&hide_border=true&bg_color=0d0d0d&title_color=00ff41&text_color=ccffcc"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=Nashid-k&theme=dark&hide_border=true&background=000d05&ring=00ff41&fire=00cc33&currStreakLabel=00ff41&sideLabels=aaffcc&dates=aaffcc&sideNums=00ff41&currStreakNum=00ff41" alt="GitHub Streak" width="60%"/>
+<img src="https://streak-stats.demolab.com?user=Nashid-k&theme=dark&hide_border=true&background=0d0d0d&ring=00ff41&fire=00cc33&currStreakLabel=00ff41&sideLabels=aaffcc&dates=aaffcc&sideNums=00ff41&currStreakNum=00ff41" width="60%"/>
 
 </div>
 
@@ -229,17 +192,21 @@ const nashid: Engineer = {
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--               CONTRIBUTION GRAPH                       -->
-<!-- ═══════════════════════════════════════════════════════ -->
+<!-- ══════════════════════ 3D CONTRIBUTION CALENDAR ══════════════════════ -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000,40:001a08,100:003311&height=60&text=%E2%AC%A1%20%20ACTIVITY&fontSize=22&fontColor=00ff41&animation=fadeIn" width="100%"/>
+### 🗓️ Contribution Calendar
 
-<br/><br/>
+<br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nashid-k&bg_color=000d05&color=00ff41&line=00cc33&point=00ff41&area=true&area_color=001a08&hide_border=true" width="98%" alt="Contribution Graph"/>
+<!-- 3D Contribution Graph — uses github-profile-3d-contrib Action -->
+<!-- Setup: add GitHub Action from yoshi389111/github-profile-3d-contrib -->
+<!-- It generates this SVG automatically every day -->
+<img src="https://raw.githubusercontent.com/Nashid-k/Nashid-k/main/profile-3d-contrib/profile-night-green.svg" width="100%" alt="3D Contributions"/>
+
+<br/>
+<sub>⚙️ <em>To enable 3D graph: add <a href="https://github.com/yoshi389111/github-profile-3d-contrib">yoshi389111/github-profile-3d-contrib</a> GitHub Action to your profile repo</em></sub>
 
 </div>
 
@@ -247,21 +214,15 @@ const nashid: Engineer = {
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                  RANDOM DEV QUOTE                      -->
-<!-- ═══════════════════════════════════════════════════════ -->
+<!-- ══════════════════════ ACTIVITY GRAPH ══════════════════════ -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000,40:001a08,100:003311&height=60&text=%E2%AC%A1%20%20THOUGHT%20OF%20THE%20BUILD&fontSize=22&fontColor=00ff41&animation=fadeIn" width="100%"/>
+### 📈 Activity
 
-<br/><br/>
+<br/>
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=First%2C%20solve%20the%20problem.%20Then%2C%20write%20the%20code.&author=John%20Johnson" width="80%"/>
-
-<br/><br/>
-
-<img src="https://readme-jokes.vercel.app/api?theme=dark&bgColor=%23000d05&textColor=%2300ff41&borderColor=%2300ff41&qColor=%2300cc33&aColor=%23aaffcc&codeColor=%2300ff41" width="70%" alt="Dev Joke"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nashid-k&bg_color=0d0d0d&color=00ff41&line=00cc33&point=00ff41&area=true&area_color=001a08&hide_border=true&radius=6" width="97%"/>
 
 </div>
 
@@ -269,22 +230,50 @@ const nashid: Engineer = {
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                   CONNECT                              -->
-<!-- ═══════════════════════════════════════════════════════ -->
+<!-- ══════════════════════ SNAKE ══════════════════════ -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000,40:001a08,100:003311&height=60&text=%E2%AC%A1%20%20LET'S%20TALK&fontSize=22&fontColor=00ff41&animation=fadeIn" width="100%"/>
+### 🐍 Contribution Snake
 
-<br/><br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"/>
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" alt="snake"/>
+</picture>
+
+</div>
+
+<br/>
+
+---
+
+<!-- ══════════════════════ QUOTE ══════════════════════ -->
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" width="80%"/>
+
+</div>
+
+<br/>
+
+---
+
+<!-- ══════════════════════ CONNECT ══════════════════════ -->
+
+<div align="center">
+
+### 📡 Let's Talk
+
+<br/>
 
 <a href="https://www.linkedin.com/in/nashid-k-080909273/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" height="38"/>
+  <img src="https://img.shields.io/badge/LinkedIn-Let's%20connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="40"/>
 </a>
 &nbsp;&nbsp;
 <a href="mailto:nashid.connect@gmail.com">
-  <img src="https://img.shields.io/badge/nashid.connect%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="38"/>
+  <img src="https://img.shields.io/badge/Gmail-Say%20hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="40"/>
 </a>
 
 <br/><br/>
@@ -293,9 +282,15 @@ const nashid: Engineer = {
 if you build things that matter — let's talk.
 ```
 
-<br/>
-
 </div>
 
+<br/>
+
 <!-- FOOTER WAVE -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,40:001a08,100:00ff41&height=140&section=footer&text=keep%20building.&fontSize=28&fontColor=00ff41&fontAlignY=72&animation=fadeIn" width="100%"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff41,50:006622,100:0d0d0d&height=140&section=footer&text=keep%20building.&fontSize=28&fontColor=ffffff&fontAlignY=72&animation=twinkling"/>
+
+---
+
+<div align="center">
+<sub>⚡ Profile powered by <a href="https://github.com/anuraghazra/github-readme-stats">github-readme-stats</a> · <a href="https://github.com/platane/snk">snk</a> · <a href="https://skillicons.dev">skillicons.dev</a> · <a href="https://capsule-render.vercel.app">capsule-render</a> · <a href="https://github.com/yoshi389111/github-profile-3d-contrib">3d-contrib</a></sub>
+</div>
