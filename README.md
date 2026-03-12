@@ -192,19 +192,7 @@ const nashid: Engineer = {
 
 ---
 
-<!-- ══════════════════════ CONTRIBUTION CALENDAR ══════════════════════ -->
 
-<div align="center">
-
-### 🗓️ Contribution Heatmap
-
-<br/>
-
-<img src="https://ghchart.rshah.org/00ff41/Nashid-k" width="100%" alt="Nashid's Github chart" />
-
-</div>
-
-<br/>
 
 ---
 
@@ -231,12 +219,52 @@ const nashid: Engineer = {
 ### 🐍 Contribution Snake
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"/>
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" alt="snake"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nashid-k/Nashid-k/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nashid-k/Nashid-k/output/github-contribution-grid-snake.svg"/>
+  <img src="https://raw.githubusercontent.com/Nashid-k/Nashid-k/output/github-contribution-grid-snake-dark.svg" width="100%" alt="snake"/>
 </picture>
 
+<br/>
+<details>
+<summary><sub>⚙️ Snake not showing? Click to set up (2 min fix)</sub></summary>
+<br/>
+
+In your `Nashid-k/Nashid-k` repo, create this file:
+**`.github/workflows/snake.yml`**
+
+```yaml
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: Nashid-k
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+Then go to **Actions → Run workflow** once to generate it. After that it auto-updates daily using your real contribution data.
+
+</details>
+
 </div>
+
+<br/>
 
 <br/>
 
