@@ -1,87 +1,77 @@
-<div align="center" style="background:#000; color:#00ff41; font-family:monospace; padding:40px 20px; line-height:1.6;">
+<div align="center">
+  <img src="https://github.com/Nashid-k.png" width="140" height="140" style="border-radius:50%; border:4px solid #00ff41;" alt="Nashid K">
 
-  <h1 style="font-size:4.8rem; margin:0; text-shadow: 
-    0 0 15px #00ff41,
-    0 0 30px #00ff41,
-    0 0 60px #00ff41,
-    0 0 90px #00ff00;
-    color:#00ff41;">
+  <h1 style="font-size:3.8rem; margin:20px 0 8px; background:linear-gradient(90deg,#00ff41,#00ff9d); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">
     NASHID K
   </h1>
 
-  <p style="font-size:2.3rem; color:#00ff9d; margin:15px 0 45px;">
-    FULL-STACK ENGINEER • NEXT.JS + GROQ AI ARCHITECT<br>
-    <span style="color:#00ff41;">THE MATRIX HAS YOU...</span>
+  <p style="font-size:1.85rem; color:#00ff9d; margin-bottom:30px;">
+    Full-Stack Engineer • Next.js 16 + Groq AI Specialist<br>
+    <strong>3+ years building production systems</strong> • 30% latency reduction • 99.9% uptime
   </p>
 
-  <!-- MATRIX RAIN BLOCK -->
-  <pre style="background:#000; color:#00ff41; padding:22px; font-size:1.15rem; line-height:1.15; text-align:left; max-width:820px; margin:30px auto; border:4px solid #00ff41; box-shadow:0 0 40px #00ff41;">
-010101  GROQ AI  101010  NEXT.JS 16  001101  REDIS CACHE
-101010  TYPE SCRIPT  010101  RBAC + JWT  110011  MONGO DB
-001100  VERCEL  111000  CLEAN ARCH  010101  99.9% UPTIME
-THE SYSTEM IS ONLINE... LOADING PRODUCTION CODE
-  </pre>
-
-  <!-- TERMINAL BOX -->
-  <div style="background:rgba(0,20,0,0.95); border:4px solid #00ff41; padding:38px; max-width:920px; margin:40px auto; border-radius:12px; box-shadow:0 0 50px #00ff41;">
-    <h2 style="color:#00ff41; margin-top:0; font-size:2.3rem;">SYSTEM STATUS: <span style="color:#00ff9d;">ONLINE ✓</span></h2>
-    <p style="font-size:1.75rem;">
-      3+ years building production systems that actually scale.<br>
-      30% latency reduction • 99.9% uptime • Zero security incidents
-    </p>
-  </div>
-
-  <!-- TECH MATRIX -->
-  <h2 style="color:#00ff41; font-size:3rem; margin:60px 0 30px; text-shadow:0 0 25px #00ff41;">TECH MATRIX LOADED</h2>
-  
-  <table style="width:100%; max-width:920px; margin:0 auto; border-collapse:collapse;">
-    <tr>
-      <td style="border:3px solid #00ff41; padding:22px; background:rgba(0,255,65,0.09); text-align:center;">Next.js 16<br><small style="font-size:1.15rem;">App Router + Server Components</small></td>
-      <td style="border:3px solid #00ff41; padding:22px; background:rgba(0,255,65,0.09); text-align:center;">React 19 + TypeScript<br><small style="font-size:1.15rem;">TanStack Query</small></td>
-      <td style="border:3px solid #00ff41; padding:22px; background:rgba(0,255,65,0.09); text-align:center;">Groq LLM<br><small style="font-size:1.15rem;">10-key rotation pool</small></td>
-    </tr>
-    <tr>
-      <td style="border:3px solid #00ff41; padding:22px; background:rgba(0,255,65,0.09); text-align:center;">Node.js • Express<br><small style="font-size:1.15rem;">Zod + RBAC + JWT</small></td>
-      <td style="border:3px solid #00ff41; padding:22px; background:rgba(0,255,65,0.09); text-align:center;">MongoDB + PostgreSQL<br><small style="font-size:1.15rem;">Advanced Indexing</small></td>
-      <td style="border:3px solid #00ff41; padding:22px; background:rgba(0,255,65,0.09); text-align:center;">Upstash Redis<br><small style="font-size:1.15rem;">Caching + Rate Limiting</small></td>
-    </tr>
-    <tr>
-      <td style="border:3px solid #00ff41; padding:22px; background:rgba(0,255,65,0.09); text-align:center;">Docker + Vercel + AWS<br><small style="font-size:1.15rem;">CI/CD Ready</small></td>
-      <td style="border:3px solid #00ff41; padding:22px; background:rgba(0,255,65,0.09); text-align:center;">Jest + RTL<br><small style="font-size:1.15rem;">Full Test Coverage</small></td>
-      <td style="border:3px solid #00ff41; padding:22px; background:rgba(0,255,65,0.09); text-align:center;">Clean Architecture<br><small style="font-size:1.15rem;">SOLID + Performance</small></td>
-    </tr>
-  </table>
-
-  <!-- PROJECTS -->
-  <h2 style="color:#00ff41; font-size:3rem; margin:65px 0 35px; text-shadow:0 0 25px #00ff41;">DEPLOYED IN THE GRID</h2>
-
-  <div style="background:rgba(0,20,0,0.95); border:4px solid #00ff41; padding:35px; margin:25px auto; max-width:920px; border-radius:12px; box-shadow:0 0 45px #00ff41;">
-    <h3 style="color:#00ff9d; margin-top:0;">AXIOM — AI AUTONOMOUS LEARNING OS</h3>
-    <p style="font-size:1.6rem;">Live Monaco code editor + Groq AI mentor + Neural Flashcards + personalized curriculum engine</p>
-    <p style="margin:25px 0;">
-      <a href="https://axiom-e-learning.vercel.app" target="_blank" style="color:#00ff41; font-size:1.7rem; font-weight:bold; text-decoration:none; border-bottom:3px solid #00ff41;">LAUNCH AXIOM LIVE →</a> 
-      <a href="https://github.com/Nashid-k/axiom-e-learning" target="_blank" style="color:#00ff41; font-size:1.7rem; font-weight:bold; text-decoration:none; border-bottom:3px solid #00ff41;">VIEW SOURCE CODE</a>
-    </p>
-  </div>
-
-  <div style="background:rgba(0,20,0,0.95); border:4px solid #00ff41; padding:35px; margin:25px auto; max-width:920px; border-radius:12px; box-shadow:0 0 45px #00ff41;">
-    <h3 style="color:#00ff9d; margin-top:0;">ENTERPRISE ASSET TRACKER @ DEXPRO</h3>
-    <p style="font-size:1.6rem;">RBAC for 300+ assets • Real-time updates • Audit trails • 30% faster APIs</p>
-    <p style="color:#00ff41; font-size:1.6rem; font-weight:bold;">PRODUCTION SYSTEM (INTERNAL)</p>
-  </div>
-
-  <!-- ENTER THE GRID -->
-  <div style="margin:75px 0 40px;">
-    <h2 style="color:#00ff41; font-size:3rem; text-shadow:0 0 30px #00ff41;">ENTER THE GRID</h2>
-    <p style="font-size:1.9rem; margin:30px 0;">
-      <a href="mailto:nashid.connect@gmail.com" style="color:#00ff41; text-decoration:none;">nashid.connect@gmail.com</a> 
-      <a href="https://www.linkedin.com/in/nashid-k-080909273/" target="_blank" style="color:#00ff41; text-decoration:none;">LINKEDIN</a> 
-      <a href="https://axiom-e-learning.vercel.app" target="_blank" style="color:#00ff41; text-decoration:none;">LIVE DEMO</a>
-    </p>
-  </div>
-
-  <p style="color:#00ff41; font-size:1.55rem;">
-    THIRUVANANTHAPURAM, KERALA • OPEN TO REMOTE / BANGALORE ROLES
+  <p>
+    <a href="https://axiom-e-learning.vercel.app" target="_blank">
+      <img src="https://img.shields.io/badge/Live_Demo-Launch_Axiom-00ff41?style=for-the-badge&logo=vercel" alt="Live Demo">
+    </a>
+    <a href="https://github.com/Nashid-k/axiom-e-learning" target="_blank">
+      <img src="https://img.shields.io/badge/Axiom_Source-View_Code-00ff41?style=for-the-badge&logo=github" alt="Source">
+    </a>
   </p>
 
+  <hr style="border-color:#00ff41; width:60%; margin:40px auto;">
+
+  <!-- TECH STACK -->
+  <h2 style="color:#00ff41; font-size:2.2rem;">TECH MATRIX LOADED</h2>
+  <p>
+    <img src="https://img.shields.io/badge/Next.js_16-000000?logo=next.js&style=flat-square" alt="Next.js">
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&style=flat-square" alt="TypeScript">
+    <img src="https://img.shields.io/badge/React_19-61DAFB?logo=react&style=flat-square" alt="React">
+    <img src="https://img.shields.io/badge/Groq_AI-00ff41?logo=groq&style=flat-square" alt="Groq">
+    <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&style=flat-square" alt="Redis">
+    <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&style=flat-square" alt="MongoDB">
+    <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&style=flat-square" alt="Docker">
+    <img src="https://img.shields.io/badge/Jest-C21325?logo=jest&style=flat-square" alt="Jest">
+  </p>
+
+  <!-- AXIOM SHOWCASE -->
+  <h2 style="color:#00ff41; margin-top:50px;">FEATURED REALITY — AXIOM</h2>
+  <p style="max-width:700px; font-size:1.3rem;">
+    Autonomous AI Learning OS with live Monaco code editor, Groq-powered mentorship, Neural Flashcards, personalized curricula (15+ courses), and Redis caching.<br><br>
+    <strong>Built with Next.js 16 + React 19 + TypeScript + Groq 10-key rotation pool</strong>
+  </p>
+
+  <p>
+    <a href="https://axiom-e-learning.vercel.app" target="_blank" style="color:#00ff41; font-size:1.4rem; text-decoration:underline;">🚀 Launch Axiom Live Now</a> 
+    <a href="https://github.com/Nashid-k/axiom-e-learning" target="_blank" style="color:#00ff41; font-size:1.4rem; text-decoration:underline;">📂 View Full Source</a>
+  </p>
+
+  <!-- METRICS -->
+  <div style="display:flex; justify-content:center; gap:40px; flex-wrap:wrap; margin:50px 0;">
+    <div style="text-align:center;">
+      <h3 style="color:#00ff9d; margin:0;">30%</h3>
+      <p style="margin:0; font-size:1.1rem;">API Latency Reduced</p>
+    </div>
+    <div style="text-align:center;">
+      <h3 style="color:#00ff9d; margin:0;">99.9%</h3>
+      <p style="margin:0; font-size:1.1rem;">Production Uptime</p>
+    </div>
+    <div style="text-align:center;">
+      <h3 style="color:#00ff9d; margin:0;">0</h3>
+      <p style="margin:0; font-size:1.1rem;">Security Incidents</p>
+    </div>
+  </div>
+
+  <!-- CONNECT -->
+  <h2 style="color:#00ff41; margin:50px 0 20px;">ENTER THE GRID</h2>
+  <p style="font-size:1.5rem;">
+    📧 <a href="mailto:nashid.connect@gmail.com" style="color:#00ff41;">nashid.connect@gmail.com</a><br>
+    📍 Thiruvananthapuram, Kerala • Open to Remote / Bangalore<br>
+    🔗 <a href="https://www.linkedin.com/in/nashid-k-080909273/" target="_blank" style="color:#00ff41;">LinkedIn</a> • 
+    <a href="https://github.com/Nashid-k/axiom-e-learning" target="_blank" style="color:#00ff41;">Axiom Repo</a>
+  </p>
+
+  <p style="margin-top:60px; font-size:1.1rem; color:#666;">
+    Currently shipping daily on Axiom • 167 contributions • Actively seeking mid-level Full-Stack / AI roles
+  </p>
 </div>
