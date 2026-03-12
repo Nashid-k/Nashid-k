@@ -273,12 +273,6 @@ Then go to **Actions → Run workflow** once to generate it. After that it auto-
 
 <br/>
 
----
-
-<!-- AXIOM-SHOWCASE:START -->
-<!-- AXIOM-SHOWCASE:END -->
-
-<br/>
 
 ---
 
