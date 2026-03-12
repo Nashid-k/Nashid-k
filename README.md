@@ -14,6 +14,11 @@
 
 <br/>
 
+<!-- STATUS:START -->
+<!-- STATUS:END -->
+
+<br/>
+
 <!-- VISITOR BADGE + SOCIAL ROW -->
 <a href="https://www.linkedin.com/in/nashid-k-080909273/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 &nbsp;
@@ -266,6 +271,43 @@ Then go to **Actions → Run workflow** once to generate it. After that it auto-
 </div>
 
 <br/>
+
+<br/>
+
+---
+
+<!-- AXIOM-SHOWCASE:START -->
+<!-- AXIOM-SHOWCASE:END -->
+
+<br/>
+
+---
+
+<!-- ══════════════════════ DATA METRICS ══════════════════════ -->
+
+<div align="center">
+
+### 🏛️ Engineering Workspace
+
+<table width="100%">
+<tr>
+<td width="50%" align="center">
+
+#### 🏙️ Activity City
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
+
+</td>
+<td width="50%" align="center">
+
+#### 📊 Coding Time
+<!-- waka:start -->
+<!-- waka:end -->
+
+</td>
+</tr>
+</table>
+
+</div>
 
 <br/>
 

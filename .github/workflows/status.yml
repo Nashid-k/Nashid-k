@@ -1,0 +1,31 @@
+name: Latest Status Sync
+
+on:
+  schedule:
+    - cron: "*/30 * * * *" # Every 30 mins
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-status:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Fetch Latest Commit from Axiom
+        id: fetch-commit
+        run: |
+          COMMIT_MSG=$(curl -s https://api.github.com/repos/Nashid-k/axiom-e-learning/commits/main | jq -r '.commit.message' | head -n 1)
+          echo "msg=$COMMIT_MSG" >> $GITHUB_OUTPUT
+      - name: Update README
+        run: |
+          MSG="${{ steps.fetch-commit.outputs.msg }}"
+          sed -i "s|<!-- STATUS:START -->.*<!-- STATUS:END -->|<!-- STATUS:START -->![](https://img.shields.io/badge/Building-${MSG// /%20}-00ff41?style=flat-square\&logo=github)<!-- STATUS:END -->|g" README.md
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add README.md
+          git commit -m "chore: update development status" || exit 0
+          git push
