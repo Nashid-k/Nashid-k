@@ -5,7 +5,7 @@
 
 <!-- TYPING ANIMATION -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=false&width=700&lines=Next.js+16+%2B+Groq+AI+Specialist;3%2B+Years+Building+Production+Systems;30%25+Latency+Reduction+%E2%80%A2+99.9%25+Uptime;Full-Stack+%7C+TypeScript+%7C+MongoDB+%7C+Redis;Shipping+AI-Powered+Products+Daily+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=false&width=700&lines=Next.js+%2B+Groq+AI+Specialist;Building+Production-Grade+Systems;30%25+Latency+Reduction+%E2%80%A2+99.9%25+Uptime;Full-Stack+%7C+TypeScript+%7C+MongoDB+%7C+Redis;Shipping+AI-Powered+Products+Daily+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -19,7 +19,7 @@
   </a>
   &nbsp;
   <a href="mailto:nashid.connect@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Hire%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
   &nbsp;
   <a href="https://axiom-e-learning.vercel.app">
@@ -27,12 +27,6 @@
   </a>
 </p>
 
-<br/>
-
-<!-- OPEN TO WORK BANNER -->
-<img src="https://img.shields.io/badge/🟢%20ACTIVELY%20SEEKING-Mid%20Level%20Full--Stack%20%2F%20AI%20Engineer%20Roles-00ff41?style=flat-square&labelColor=003311" />
-&nbsp;
-<img src="https://img.shields.io/badge/📍%20LOCATION-Thiruvananthapuram%2C%20Kerala%20→%20Open%20to%20Bangalore%20%2F%20Remote-00ff41?style=flat-square&labelColor=003311" />
 
 </div>
 
@@ -44,18 +38,15 @@
 ```typescript
 const nashid = {
   role:        "Full-Stack Engineer & AI Systems Architect",
-  experience:  "3+ years building production-grade systems",
   flagship:    "Axiom — AI-Powered E-Learning OS",
   specialties: ["Next.js 16", "Groq AI", "TypeScript", "Redis", "MongoDB"],
   metrics: {
     latencyReduction: "30%",
     uptime:           "99.9%",
     securityIncidents: 0,
-    contributions:    "167+",
     aiKeysRotated:    10,
   },
   currentlyBuilding: "Autonomous AI learning systems that ship daily",
-  location:    "Thiruvananthapuram, Kerala 🇮🇳 → Open to Bangalore / Remote",
   contact:     "nashid.connect@gmail.com",
 };
 ```
@@ -119,17 +110,17 @@ const nashid = {
 
 | Layer | Stack |
 |-------|-------|
-| **Framework** | Next.js 16 (App Router + RSC) |
-| **Language** | TypeScript 5 |
-| **UI** | React 19 + Tailwind CSS 4 + Framer Motion |
+| **Framework** | Next.js (App Router + RSC) |
+| **Language** | TypeScript |
+| **UI** | React + Tailwind CSS + Framer Motion |
 | **AI / LLM** | Groq SDK (10-key rotation for HA) |
 | **Database** | MongoDB + Mongoose (schema validation + indexing) |
 | **Caching** | Upstash Redis (rate limiting) |
-| **Auth** | NextAuth.js v5 — Google OAuth + MongoDB Adapter |
+| **Auth** | NextAuth.js — Google OAuth + MongoDB Adapter |
 | **Editor** | Monaco Editor (@monaco-editor/react) |
 | **Validation** | Zod (runtime API payload validation) |
 | **State** | TanStack React Query |
-| **Testing** | Jest 30 + React Testing Library |
+| **Testing** | Jest + React Testing Library |
 | **Deployment** | Vercel (Serverless + Edge) |
 
 </div>
@@ -183,9 +174,9 @@ const nashid = {
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ### Frontend
-![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
 ### Backend & Infra
@@ -200,7 +191,7 @@ const nashid = {
 ![Google APIs](https://img.shields.io/badge/Google_APIs-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
 ### Testing & Quality
-![Jest](https://img.shields.io/badge/Jest_30-C21325?style=for-the-badge&logo=jest&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
 ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
 
@@ -261,7 +252,7 @@ const nashid = {
 │  Type-Safe APIs      │  Zod validation + TypeScript end-to-end │
 │  Production-Grade    │  99.9% uptime, 0 security incidents     │
 │  Feature Architecture│  Domain-driven, RSC-first Next.js apps  │
-│  Test-Driven         │  Jest 30 + RTL on every critical path   │
+│  Test-Driven         │  Jest + RTL on every critical path      │
 └──────────────────────┴─────────────────────────────────────────┘
 ```
 
@@ -273,10 +264,6 @@ const nashid = {
 ## 📡 Let's Connect
 
 <div align="center">
-
-<br/>
-
-**Currently shipping daily · 167+ contributions · Actively seeking mid-level Full-Stack / AI roles**
 
 <br/>
 
@@ -297,10 +284,6 @@ const nashid = {
 <a href="https://axiom-e-learning.vercel.app">
   <img src="https://img.shields.io/badge/Demo-Live%20Platform-00ff41?style=for-the-badge&logo=vercel&logoColor=black" alt="Live Platform"/>
 </a>
-
-<br/><br/>
-
-📍 **Thiruvananthapuram, Kerala** &nbsp;·&nbsp; Open to **Remote** &nbsp;·&nbsp; Open to **Bangalore**
 
 <br/>
 
