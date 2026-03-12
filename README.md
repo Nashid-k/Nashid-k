@@ -248,16 +248,20 @@ const nashid: Engineer = {
 ---
 
 <!-- ═══════════════════════════════════════════════════════ -->
-<!--                    TROPHIES                            -->
+<!--                  RANDOM DEV QUOTE                      -->
 <!-- ═══════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000,40:001a08,100:003311&height=60&text=%E2%AC%A1%20%20TROPHIES&fontSize=22&fontColor=00ff41&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000,40:001a08,100:003311&height=60&text=%E2%AC%A1%20%20THOUGHT%20OF%20THE%20BUILD&fontSize=22&fontColor=00ff41&animation=fadeIn" width="100%"/>
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Nashid-k&theme=darkhub&no-bg=false&no-frame=false&column=7&margin-w=8&margin-h=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" width="98%" alt="Trophies"/>
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=First%2C%20solve%20the%20problem.%20Then%2C%20write%20the%20code.&author=John%20Johnson" width="80%"/>
+
+<br/><br/>
+
+<img src="https://readme-jokes.vercel.app/api?theme=dark&bgColor=%23000d05&textColor=%2300ff41&borderColor=%2300ff41&qColor=%2300cc33&aColor=%23aaffcc&codeColor=%2300ff41" width="70%" alt="Dev Joke"/>
 
 </div>
 
