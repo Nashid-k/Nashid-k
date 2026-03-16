@@ -14,7 +14,7 @@
 
 <br/>
 
-<!-- STATUS:START -->![](https://img.shields.io/badge/Building-chore%3A%20remove%20Axiom-specific%20workflows%20and%20cleanup%20README-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
+<!-- STATUS:START -->![](https://img.shields.io/badge/Building-docs%3A%20update%20README%20with%20performance%20%26%20scalability%20architectural%20details-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
 
 <br/>
 
