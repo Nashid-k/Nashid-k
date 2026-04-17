@@ -14,7 +14,7 @@
 
 <br/>
 
-<!-- STATUS:START -->![](https://img.shields.io/badge/Building-docs%3A%20update%20README%20with%20performance%20%26%20scalability%20architectural%20details-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
+<!-- STATUS:START -->![](https://img.shields.io/badge/Building-feat%3A%20enhance%20AI%20features%20and%20refine%20UI-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
 
 <br/>
 
