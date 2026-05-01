@@ -14,7 +14,7 @@
 
 <br/>
 
-<!-- STATUS:START -->![](https://img.shields.io/badge/Building-fix%3A%20resolve%20build%20errors%20and%20mark%20API%20routes%20as%20dynamic-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
+<!-- STATUS:START -->![](https://img.shields.io/badge/Building-feat%3A%20complete%20UI%2FUX%20overhaul%20to%20Axiom%20Minimal%20design-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
 
 <br/>
 
