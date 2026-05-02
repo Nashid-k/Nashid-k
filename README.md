@@ -14,7 +14,7 @@
 
 <br/>
 
-<!-- STATUS:START -->![](https://img.shields.io/badge/Building-Add%20loading%20spinners%20to%20async%20states-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
+<!-- STATUS:START -->![](https://img.shields.io/badge/Building-fix(build)%3A%20resolve%20regressions%20and%20missing%20type%20definitions-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
 
 <br/>
 
