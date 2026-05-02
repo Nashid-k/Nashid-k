@@ -14,7 +14,7 @@
 
 <br/>
 
-<!-- STATUS:START -->![](https://img.shields.io/badge/Building-fix(build)%3A%20resolve%20regressions%20and%20missing%20type%20definitions-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
+<!-- STATUS:START -->![](https://img.shields.io/badge/Building-feat(ui)%3A%20implement%20'Axiom%20Minimal'%20design%20system%20overhaul-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
 
 <br/>
 
