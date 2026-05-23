@@ -14,7 +14,7 @@
 
 <br/>
 
-<!-- STATUS:START -->![](https://img.shields.io/badge/Building-feat(ui)%3A%20implement%20'Axiom%20Minimal'%20design%20system%20overhaul-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
+<!-- STATUS:START -->![](https://img.shields.io/badge/Building-fix%3A%20resolve%20vercel%20production%20build%20typescript%20errors%20and%20eslint%20warnings-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
 
 <br/>
 
