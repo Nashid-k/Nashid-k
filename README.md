@@ -14,7 +14,7 @@
 
 <br/>
 
-<!-- STATUS:START -->![](https://img.shields.io/badge/Building-fix%3A%20resolve%20vercel%20production%20build%20typescript%20errors%20and%20eslint%20warnings-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
+<!-- STATUS:START -->![](https://img.shields.io/badge/Building-fix%3A%20resolve%20empty%20next.js%20and%20os%20curriculums%2C%20fix%20dsa%20reference%20crash%2C%20correct%20os%20phase%20indexing%2C%20and%20enrich%20mongodb%20content-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
 
 <br/>
 
