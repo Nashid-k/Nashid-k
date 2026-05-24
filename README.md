@@ -14,7 +14,7 @@
 
 <br/>
 
-<!-- STATUS:START -->![](https://img.shields.io/badge/Building-feat%3A%20complete%20YOE-based%20exact%20matching%20and%20AI%20curriculum%20overhaul-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
+<!-- STATUS:START -->![](https://img.shields.io/badge/Building-style%3A%20remove%20max-w-7xl%20to%20utilize%20full%20device%20width%20in%20layout%20and%20category%20view-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
 
 <br/>
 
