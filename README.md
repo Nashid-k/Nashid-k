@@ -14,7 +14,7 @@
 
 <br/>
 
-<!-- STATUS:START -->![](https://img.shields.io/badge/Building-feat%3A%20global%20experience%20level%20curriculum%20filtering%20engine%20and%20navbar%20selector-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
+<!-- STATUS:START -->![](https://img.shields.io/badge/Building-feat%3A%20complete%20YOE-based%20exact%20matching%20and%20AI%20curriculum%20overhaul-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
 
 <br/>
 
