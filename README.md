@@ -14,7 +14,7 @@
 
 <br/>
 
-<!-- STATUS:START -->![](https://img.shields.io/badge/Building-fix%3A%20resolve%20empty%20next.js%20and%20os%20curriculums%2C%20fix%20dsa%20reference%20crash%2C%20correct%20os%20phase%20indexing%2C%20and%20enrich%20mongodb%20content-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
+<!-- STATUS:START -->![](https://img.shields.io/badge/Building-feat%3A%20complete%20Learning%20OS%20integration%20with%20VFS%2C%20Monaco%20AI%20Copilot%2C%20GitHub%20publisher%2C%20and%20collaborative%20rooms-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
 
 <br/>
 
