@@ -14,7 +14,7 @@
 
 <br/>
 
-<!-- STATUS:START -->![](https://img.shields.io/badge/Building-fix%3A%20resolve%20button%20visibility%20issues%20in%20light%20mode-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
+<!-- STATUS:START -->![](https://img.shields.io/badge/Building-null-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
 
 <br/>
 
