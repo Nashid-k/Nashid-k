@@ -233,7 +233,7 @@ const nashid: Engineer = {
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=Nashid-k&theme=dark&hide_border=true&background=121212&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=aaaaaa&dates=aaaaaa&sideNums=ffffff&currStreakNum=ffffff" width="60%"/>
+<img src="https://streak-stats.demolab.com?user=Nashid-k&theme=dark&hide_border=true&background=121212&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=aaaaaa&dates=aaaaaa&sideNlegacy-ums=ffffff&currStreakNum=ffffff" width="60%"/>
 
 <br/><br/>
 
