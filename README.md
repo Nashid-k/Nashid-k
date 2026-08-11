@@ -3,7 +3,12 @@
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
 # 💻 Nashid K
-### Full-Stack Software Engineer & AI Systems Builder
+
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=Software+Engineer;Full-Stack+MERN+Developer;AI+Systems+Builder" alt="Typing SVG" />
+  </a>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/MERN-Stack-black?style=flat-square" alt="MERN" />
@@ -60,13 +65,25 @@
 ## 📊 Analytics & Telemetry
 
 <p align="center">
-  <img src="https://github-profile-3d-contrib.vercel.app/api?username=Nashid-k&theme=dark" alt="3D Calendar" width="70%" />
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Calendar" width="80%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nashid-k&show_icons=true&theme=dark" alt="Metrics Stats" width="48%" />
+  <img src="https://github-readme-stats-anuraghazra.vercel.app/api?username=Nashid-k&show_icons=true&theme=dark" alt="Metrics Stats" width="48%" />
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nashid-k&layout=compact&theme=dark" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs/?username=Nashid-k&layout=compact&theme=dark" alt="Top Languages" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nashid-k&theme=dark" alt="GitHub Streak Stats" width="80%" />
+</p>
+
+---
+
+## 🐍 Contribution Activity Crawler
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Nashid-k/Nashid-k/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" width="90%" />
 </p>
 
 ---
