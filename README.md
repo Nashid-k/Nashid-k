@@ -1,41 +1,42 @@
-
 <!-- ══════════════════════════════════════════════════════════════════ -->
 <!--             NASHID K  —  GITHUB PROFILE  README                  -->
-<!--   Researched from the top GitHub profiles worldwide               -->
+<!--               Modern Minimalist Redesign (Monochrome)            -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
-<!-- ANIMATED BANNER HEADER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,40:003311,80:006622,100:00ff41&height=220&section=header&text=Nashid%20K&fontSize=78&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Engineer%20%E2%80%94%20I%20build%20things%20that%20scale.&descSize=19&descColor=aaffcc&descAlignY=60&animation=twinkling"/>
+<!-- TYPOGRAPHY / BANNER HEADER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:121212,50:1c1c1e,100:121212&height=220&section=header&text=Nashid%20K&fontSize=78&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Engineer%20%E2%80%94%20Building%20systems%20that%20scale.&descSize=19&descColor=8e8e93&descAlignY=60&animation=twinkling"/>
 
 <div align="center">
 
-<!-- ANIMATED TYPING — punchy, no fluff -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=21&pause=1000&color=00FF41&center=true&vCenter=true&width=750&height=45&lines=Next.js+%C2%B7+TypeScript+%C2%B7+MongoDB+%C2%B7+Redis+%C2%B7+Docker;Turning+ideas+into+production-grade+systems.;Performance-obsessed.+Security-hardened.+AI-powered.;30%25+latency+cut.+99.9%25+uptime.+Zero+incidents." alt="Typing SVG" /></a>
+<!-- ANIMATED TYPING -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=21&pause=1000&color=ffffff&center=true&vCenter=true&width=750&height=45&lines=Next.js+%C2%B7+TypeScript+%C2%B7+MongoDB+%C2%B7+Redis+%C2%B7+Docker;Turning+ideas+into+production-grade+systems.;Performance-obsessed.+Security-hardened.+AI-powered.;30%25+latency+cut.+99.9%25+uptime.+Zero+incidents." alt="Typing SVG" /></a>
 
 <br/>
 
-<!-- STATUS:START -->![](https://img.shields.io/badge/Building-fix%3A%20resolve%20button%20visibility%20issues%20in%20light%20mode-00ff41?style=flat-square&logo=github)<!-- STATUS:END -->
+<!-- STATUS:START -->![](https://img.shields.io/badge/Building-fix%3A%20resolve%20button%20visibility%20issues%20in%20light%20mode-1a1a1a?style=flat-square&logo=github)<!-- STATUS:END -->
 
 <br/>
 
-<!-- VISITOR BADGE + SOCIAL ROW -->
-<a href="https://www.linkedin.com/in/nashid-k-080909273/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<!-- SOCIAL BADGES -->
+<a href="https://www.linkedin.com/in/nashid-k-080909273/"><img src="https://img.shields.io/badge/LinkedIn-121212?style=flat-square&logo=linkedin&logoColor=white"/></a>
 &nbsp;
-<a href="mailto:nashid.connect@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="mailto:nashid.connect@gmail.com"><img src="https://img.shields.io/badge/Gmail-121212?style=flat-square&logo=gmail&logoColor=white"/></a>
 &nbsp;
-<img src="https://komarev.com/ghpvc/?username=Nashid-k&style=for-the-badge&color=00ff41&label=PROFILE+VIEWS&labelColor=001a08"/>
+<img src="https://komarev.com/ghpvc/?username=Nashid-k&style=flat-square&color=121212&label=VIEWS&labelColor=555555"/>
 
 </div>
 
+<br/>
+
 ---
 
-<!-- ══════════════════════ ABOUT ══════════════════════ -->
+<!-- ══════════════════════ PROFILE GRID ══════════════════════ -->
 
 <br/>
 
-<table width="100%">
+<table width="100%" style="border-collapse: collapse; border: 1px solid #333333;">
 <tr>
-<td width="52%" valign="top">
+<td width="55%" valign="top" style="padding: 20px; border-right: 1px solid #333333;">
 
 ### `> whoami`
 
@@ -63,33 +64,48 @@ const nashid: Engineer = {
 ```
 
 </td>
-<td width="48%" valign="top" align="center">
+<td width="45%" valign="top" style="padding: 20px;">
 
-### `> ./metrics --live`
-
-<br/>
-
-```
-╔══════════════════════════════════╗
-║  ⚡ API Latency Reduced    30%   ║
-╠══════════════════════════════════╣
-║  🟢 Production Uptime     99.9%  ║
-╠══════════════════════════════════╣
-║  🛡️ Security Incidents       0   ║
-╠══════════════════════════════════╣
-║  🔁 LLM Key Pool           10×   ║
-╠══════════════════════════════════╣
-║  🎨 UI Components Built     21   ║
-╠══════════════════════════════════╣
-║  🔀 API Route Groups        11   ║
-╚══════════════════════════════════╝
-```
+### `> telemetry --live`
 
 <br/>
 
-![TypeScript](https://img.shields.io/badge/TypeScript-98.2%25-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1.5%25-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JS](https://img.shields.io/badge/JS-0.3%25-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+<table width="100%" style="border-collapse: collapse; font-family: monospace; font-size: 14px; line-height: 2.0;">
+  <tr style="border-bottom: 1px solid #2d2d2d;">
+    <td style="color: #8e8e93; padding: 4px 0;">⚡ Latency Cut</td>
+    <td align="right" style="color: #ffffff; padding: 4px 0;"><code>30%</code></td>
+  </tr>
+  <tr style="border-bottom: 1px solid #2d2d2d;">
+    <td style="color: #8e8e93; padding: 4px 0;">🟢 Live Uptime</td>
+    <td align="right" style="color: #ffffff; padding: 4px 0;"><code>99.9%</code></td>
+  </tr>
+  <tr style="border-bottom: 1px solid #2d2d2d;">
+    <td style="color: #8e8e93; padding: 4px 0;">🛡️ Security Incidents</td>
+    <td align="right" style="color: #ffffff; padding: 4px 0;"><code>0</code></td>
+  </tr>
+  <tr style="border-bottom: 1px solid #2d2d2d;">
+    <td style="color: #8e8e93; padding: 4px 0;">🔁 LLM Pool Resilience</td>
+    <td align="right" style="color: #ffffff; padding: 4px 0;"><code>10x</code></td>
+  </tr>
+  <tr style="border-bottom: 1px solid #2d2d2d;">
+    <td style="color: #8e8e93; padding: 4px 0;">🎨 UI Components Built</td>
+    <td align="right" style="color: #ffffff; padding: 4px 0;"><code>21</code></td>
+  </tr>
+  <tr>
+    <td style="color: #8e8e93; padding: 4px 0;">🔀 API Route Groups</td>
+    <td align="right" style="color: #ffffff; padding: 4px 0;"><code>11</code></td>
+  </tr>
+</table>
+
+<br/>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/TypeScript-98.2%25-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/CSS-1.5%25-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/JS-0.3%25-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+</div>
 
 </td>
 </tr>
@@ -99,31 +115,16 @@ const nashid: Engineer = {
 
 ---
 
-<!-- ══════════════════════ SKILL ICONS ══════════════════════ -->
+<!-- ══════════════════════ TECH STACK ══════════════════════ -->
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0d0d,100:001a08&height=2&section=header" width="100%"/>
 
 ### 🛠️ Tech Stack
 
 <br/>
 
-<!-- SKILL ICONS — uses skill-icons project, renders beautiful logo grid -->
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=ts,js,nextjs,react,tailwind,nodejs&theme=dark&perline=6" />
-</a>
-
-<br/><br/>
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=mongodb,redis,docker,vercel,jest,git&theme=dark&perline=6" />
-</a>
-
-<br/><br/>
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=vscode,github,figma,linux,postman,markdown&theme=dark&perline=6" />
+  <img src="https://skillicons.dev/icons?i=ts,js,nextjs,react,tailwind,nodejs,mongodb,redis,docker,vercel,jest,git,vscode,github,linux,markdown&theme=dark&perline=8" />
 </a>
 
 </div>
@@ -132,7 +133,7 @@ const nashid: Engineer = {
 
 ---
 
-<!-- ══════════════════════ HOW I ENGINEER ══════════════════════ -->
+<!-- ══════════════════════ ENGINEERING DNA ══════════════════════ -->
 
 <div align="center">
 
@@ -140,31 +141,33 @@ const nashid: Engineer = {
 
 <br/>
 
-<table>
+<table style="border-collapse: collapse; border: 1px solid #333333; text-align: center;">
 <tr>
-<td align="center" width="160px">
-<img src="https://img.shields.io/badge/🎯-Precision-00ff41?style=flat-square&labelColor=001a08" /><br/>
-<sub>TypeScript end-to-end.<br/>Zod-validated APIs.<br/>No silent failures.</sub>
+<td style="padding: 15px; border-right: 1px solid #333333; border-bottom: 1px solid #333333; width: 160px;">
+<strong>🎯 Precision</strong><br/>
+<sub style="color: #8e8e93;">TypeScript end-to-end.<br/>Zod-validated APIs.<br/>No silent failures.</sub>
 </td>
-<td align="center" width="160px">
-<img src="https://img.shields.io/badge/⚡-Speed-00ff41?style=flat-square&labelColor=001a08" /><br/>
-<sub>Redis caching.<br/>RSC-first rendering.<br/>Bundle analysis every build.</sub>
+<td style="padding: 15px; border-right: 1px solid #333333; border-bottom: 1px solid #333333; width: 160px;">
+<strong>⚡ Speed</strong><br/>
+<sub style="color: #8e8e93;">Redis caching.<br/>RSC-first rendering.<br/>Strict bundle checks.</sub>
 </td>
-<td align="center" width="160px">
-<img src="https://img.shields.io/badge/🧱-Architecture-00ff41?style=flat-square&labelColor=001a08" /><br/>
-<sub>Feature-based domains.<br/>Clean interfaces.<br/>Code that survives growth.</sub>
+<td style="padding: 15px; border-bottom: 1px solid #333333; width: 160px;">
+<strong>🧱 Architecture</strong><br/>
+<sub style="color: #8e8e93;">Feature-based domains.<br/>Clean interfaces.<br/>Designed for scale.</sub>
 </td>
-<td align="center" width="160px">
-<img src="https://img.shields.io/badge/🛡️-Security-00ff41?style=flat-square&labelColor=001a08" /><br/>
-<sub>HTTP headers.<br/>Rate limiting.<br/>Zero-incident record.</sub>
+</tr>
+<tr>
+<td style="padding: 15px; border-right: 1px solid #333333; width: 160px;">
+<strong>🛡️ Security</strong><br/>
+<sub style="color: #8e8e93;">Secure HTTP headers.<br/>Strict rate limiting.<br/>Zero-incident record.</sub>
 </td>
-<td align="center" width="160px">
-<img src="https://img.shields.io/badge/🤖-AI_Systems-00ff41?style=flat-square&labelColor=001a08" /><br/>
-<sub>LLMs as infrastructure.<br/>Resilient & context-aware.<br/>Fast by design.</sub>
+<td style="padding: 15px; border-right: 1px solid #333333; width: 160px;">
+<strong>🤖 AI Systems</strong><br/>
+<sub style="color: #8e8e93;">Context-aware agents.<br/>Failover pool logic.<br/>Optimal latency.</sub>
 </td>
-<td align="center" width="160px">
-<img src="https://img.shields.io/badge/✅-Quality-00ff41?style=flat-square&labelColor=001a08" /><br/>
-<sub>Jest + RTL coverage.<br/>Lint enforced.<br/>Deploys you can trust.</sub>
+<td style="padding: 15px; width: 160px;">
+<strong>✅ Quality</strong><br/>
+<sub style="color: #8e8e93;">Jest & RTL coverage.<br/>ESLint enforced.<br/>Type-safe workflows.</sub>
 </td>
 </tr>
 </table>
@@ -175,21 +178,66 @@ const nashid: Engineer = {
 
 ---
 
-<!-- ══════════════════════ GITHUB STATS ══════════════════════ -->
+<!-- ══════════════════════ FEATURED PROJECTS ══════════════════════ -->
 
 <div align="center">
 
-### 📊 Stats
+### 📁 Featured Projects
 
 <br/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Nashid-k&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d0d0d&title_color=00ff41&icon_color=00cc33&text_color=ccffcc&ring_color=00ff41&hide=contribs"/>
+<table width="100%" style="border-collapse: collapse; border: 1px solid #333333; text-align: left;">
+  <tr>
+    <td width="50%" valign="top" style="padding: 20px; border-right: 1px solid #333333; border-bottom: 1px solid #333333;">
+      <strong>💻 <a href="https://github.com/Nashid-k/axiom-e-learning">axiom-e-learning</a></strong>
+      <p style="font-size: 13px; color: #8e8e93; line-height: 1.5; margin: 8px 0 12px 0;">An interactive, secure e-learning application leveraging Next.js React Server Components, NextAuth, and optimized edge database queries.</p>
+      <code>Next.js</code> &middot; <code>TypeScript</code> &middot; <code>Tailwind</code> &middot; <code>MongoDB</code>
+    </td>
+    <td width="50%" valign="top" style="padding: 20px; border-bottom: 1px solid #333333;">
+      <strong>🔧 <a href="https://github.com/Nashid-k/antigravity-config">antigravity-config</a></strong>
+      <p style="font-size: 13px; color: #8e8e93; line-height: 1.5; margin: 8px 0 12px 0;">Workspace configuration rules, custom prompts, and automated workflows tailored for the Google Antigravity IDE.</p>
+      <code>JSON</code> &middot; <code>Markdown</code> &middot; <code>Configuration</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" style="padding: 20px; border-right: 1px solid #333333;">
+      <strong>👤 <a href="https://github.com/Nashid-k/Nashid-k">Nashid-k</a></strong>
+      <p style="font-size: 13px; color: #8e8e93; line-height: 1.5; margin: 8px 0 12px 0;">Minimalist GitHub profile repository configured with automated Actions updating telemetry metrics synchronously.</p>
+      <code>Node.js</code> &middot; <code>GitHub Actions</code> &middot; <code>SVG</code>
+    </td>
+    <td width="50%" valign="top" style="padding: 20px;">
+      <strong>📦 Other Work</strong>
+      <p style="font-size: 13px; color: #8e8e93; line-height: 1.5; margin: 8px 0 12px 0;">Various production-grade tools featuring Redis edge caching, secure LLM endpoints, and resilient cron-job scripts.</p>
+      <code>Python</code> &middot; <code>Docker</code> &middot; <code>Redis</code>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<br/>
+
+---
+
+<!-- ══════════════════════ STATS & GRAPH ══════════════════════ -->
+
+<div align="center">
+
+### 📊 Telemetry & Languages
+
+<br/>
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Nashid-k&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=121212&title_color=ffffff&icon_color=8e8e93&text_color=aaaaaa&ring_color=ffffff&hide=contribs"/>
 &nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nashid-k&layout=compact&langs_count=6&hide_border=true&bg_color=0d0d0d&title_color=00ff41&text_color=ccffcc"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nashid-k&layout=compact&langs_count=6&hide_border=true&bg_color=121212&title_color=ffffff&text_color=aaaaaa"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=Nashid-k&theme=dark&hide_border=true&background=0d0d0d&ring=00ff41&fire=00cc33&currStreakLabel=00ff41&sideLabels=aaffcc&dates=aaffcc&sideNums=00ff41&currStreakNum=00ff41" width="60%"/>
+<img src="https://streak-stats.demolab.com?user=Nashid-k&theme=dark&hide_border=true&background=121212&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=aaaaaa&dates=aaaaaa&sideNums=ffffff&currStreakNum=ffffff" width="60%"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nashid-k&bg_color=121212&color=ffffff&line=ffffff&point=ffffff&area=true&area_color=1c1c1e&hide_border=true&radius=6" width="97%"/>
 
 </div>
 
@@ -197,102 +245,25 @@ const nashid: Engineer = {
 
 ---
 
-
-
----
-
-<!-- ══════════════════════ ACTIVITY GRAPH ══════════════════════ -->
+<!-- ══════════════════════ WORKSPACE ══════════════════════ -->
 
 <div align="center">
 
-### 📈 Activity
+### 🏢 Development Environment
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nashid-k&bg_color=0d0d0d&color=00ff41&line=00cc33&point=00ff41&area=true&area_color=001a08&hide_border=true&radius=6" width="97%"/>
-
-</div>
-
-<br/>
-
----
-
-<!-- ══════════════════════ SNAKE ══════════════════════ -->
-
-<div align="center">
-
-### 🐍 Contribution Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nashid-k/Nashid-k/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nashid-k/Nashid-k/output/github-contribution-grid-snake.svg"/>
-  <img src="https://raw.githubusercontent.com/Nashid-k/Nashid-k/output/github-contribution-grid-snake-dark.svg" width="100%" alt="snake"/>
-</picture>
-
-<br/>
-<details>
-<summary><sub>⚙️ Snake not showing? Click to set up (2 min fix)</sub></summary>
-<br/>
-
-In your `Nashid-k/Nashid-k` repo, create this file:
-**`.github/workflows/snake.yml`**
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: Nashid-k
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-Then go to **Actions → Run workflow** once to generate it. After that it auto-updates daily using your real contribution data.
-
-</details>
-
-</div>
-
-<br/>
-
-<br/>
-
-
----
-
-<!-- ══════════════════════ DATA METRICS ══════════════════════ -->
-
-<div align="center">
-
-### 🏛️ Engineering Workspace
-
-<table width="100%">
+<table width="100%" style="border-collapse: collapse; border: 1px solid #333333;">
 <tr>
-<td width="50%" align="center">
+<td width="50%" align="center" style="padding: 15px; border-right: 1px solid #333333;">
 
 #### 🏙️ Activity City
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
+<img src="./profile-3d-contrib/profile-gitblock.svg" width="100%" />
 
 </td>
-<td width="50%" align="center">
+<td width="50%" align="center" style="padding: 15px;">
 
-#### 📊 Coding Time
+#### 📊 Coding Stats (Weekly)
 <!-- waka:start -->
 <!-- waka:end -->
 
@@ -306,11 +277,19 @@ Then go to **Actions → Run workflow** once to generate it. After that it auto-
 
 ---
 
-<!-- ══════════════════════ QUOTE ══════════════════════ -->
+<!-- ══════════════════════ CONTRIBUTION SNAKE ══════════════════════ -->
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" width="80%"/>
+### 🐍 Contribution Path
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nashid-k/Nashid-k/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nashid-k/Nashid-k/output/github-contribution-grid-snake.svg"/>
+  <img src="https://raw.githubusercontent.com/Nashid-k/Nashid-k/output/github-contribution-grid-snake-dark.svg" width="100%" alt="snake"/>
+</picture>
 
 </div>
 
@@ -322,33 +301,37 @@ Then go to **Actions → Run workflow** once to generate it. After that it auto-
 
 <div align="center">
 
-### 📡 Let's Talk
+### 📡 Let's Connect
+
+<br/>
+
+> "Simplicity is the ultimate sophistication." — Leonardo da Vinci
 
 <br/>
 
 <a href="https://www.linkedin.com/in/nashid-k-080909273/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-Let's%20connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="40"/>
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-121212?style=flat-square&logo=linkedin&logoColor=white" height="36"/>
 </a>
 &nbsp;&nbsp;
 <a href="mailto:nashid.connect@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-Say%20hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="40"/>
+  <img src="https://img.shields.io/badge/Email-Say%20Hello-121212?style=flat-square&logo=gmail&logoColor=white" height="36"/>
 </a>
 
 <br/><br/>
 
 ```
-if you build things that matter — let's talk.
+if you build things that matter — let's collaborate.
 ```
 
 </div>
 
 <br/>
 
-<!-- FOOTER WAVE -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff41,50:006622,100:0d0d0d&height=140&section=footer&text=keep%20building.&fontSize=28&fontColor=ffffff&fontAlignY=72&animation=twinkling"/>
+<!-- METRIC FOOTER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:121212,50:1c1c1e,100:121212&height=120&section=footer&text=keep%20refactoring.&fontSize=28&fontColor=ffffff&fontAlignY=72&animation=twinkling"/>
 
 ---
 
 <div align="center">
-<sub>⚡ Profile powered by <a href="https://github.com/anuraghazra/github-readme-stats">github-readme-stats</a> · <a href="https://github.com/platane/snk">snk</a> · <a href="https://skillicons.dev">skillicons.dev</a> · <a href="https://capsule-render.vercel.app">capsule-render</a> · <a href="https://github.com/yoshi389111/github-profile-3d-contrib">3d-contrib</a></sub>
+<sub>⚡ Powered by GitHub Actions & Open-Source Metrics.</sub>
 </div>
