@@ -13,7 +13,7 @@
 
 <br/>
 
-<!-- STATUS:START -->![](https://img.shields.io/badge/Building-fix%3A%20resolve%20button%20visibility%20issues%20in%20light%20mode-1a1a1a?style=flat-square&logo=github)<!-- STATUS:END -->
+<!-- STATUS:START -->![](https://img.shields.io/badge/Building-docs%3A%20upgrade%20repository%20readme%20to%20premium%20showcase%20standard-1a1a1a?style=flat-square&logo=github)<!-- STATUS:END -->
 
 <br/>
 
