@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="profile-banner.jpg" alt="Nashid K Profile Banner" width="100%" />
+</p>
+
 <!-- ══════════════════════════════════════════════════════════════════ -->
 <!--                     NASHID K  —  GITHUB PROFILE README               -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
