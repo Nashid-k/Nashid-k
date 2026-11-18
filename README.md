@@ -1,98 +1,53 @@
-<p align="center">
-  <img src="profile-banner.jpg" alt="Nashid K Profile Banner" width="100%" />
-</p>
+# Nashid K
+### Full-Stack Software Engineer · React · Node.js · TypeScript · AI-enabled products
 
-<!-- ══════════════════════════════════════════════════════════════════ -->
-<!--                     NASHID K  —  GITHUB PROFILE README               -->
-<!-- ══════════════════════════════════════════════════════════════════ -->
+I build web applications with an emphasis on thoughtful product experiences, maintainable architecture, and reliable backend systems. My work spans media streaming, learning platforms, career tools, and full-stack applications.
 
-# 💻 Nashid K
-
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=Software+Engineer;Full-Stack+MERN+Developer;AI+Systems+Builder" alt="Typing SVG" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/MERN-Stack-black?style=flat-square" alt="MERN" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=nextdotjs" alt="Next.js" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/TypeScript-TypeScript-blue?style=flat-square&logo=typescript" alt="TypeScript" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/AI-Gemini%20Pro-purple?style=flat-square" alt="Gemini AI" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/WebSockets-Yjs-orange?style=flat-square" alt="WebSockets" />
-</p>
-
-<p align="center">
-  <strong>Hi, I'm Nashid! A full-stack developer with 2+ years of experience engineering real-time collaborative code compilers, autonomous learning engines, and Domain-Driven design structures.</strong>
-</p>
+- **Frontend:** React, Next.js, TypeScript, JavaScript, Tailwind CSS
+- **Backend:** Node.js, Express, NestJS, REST APIs
+- **Data:** MongoDB, Mongoose, Redis
+- **Engineering:** Authentication, API design, caching, performance, testing, deployment
 
 ---
 
-## 🚀 Featured Production Systems
+## Selected projects
 
-### 1. [Axiom Learning OS](https://github.com/Nashid-k/axiom-e-learning)
-*   **Description:** AI-powered curriculum compiler that designs structured tracks dynamically. Features a context-aware mentor bot ("Sensei") evaluating solution scopes.
-*   **Architecture:** Next.js Server Components, Gemini Pro APIs, Upstash Redis caching, MongoDB.
-*   **Highlights:** 30% reduction in token request latencies via Redis caching logic.
+### [Streamly](https://github.com/Nashid-k/streamly-frontend) · [Backend](https://github.com/Nashid-k/streamly-backend)
+A media discovery and streaming experience built around a React 19 client and a NestJS API.
 
-### 2. [PrepHub Workspace](https://github.com/Nashid-k/prephub-dev-frontend)
-*   **Description:** Real-time editing sandbox supporting synchronizations, compilation runtimes, and time complexity analyzer bots.
-*   **Architecture:** React client, Express API, Yjs CRDTs, Docker sandboxes.
-*   **Highlights:** Safe code compilations within isolated Docker container networks.
+- React, Vite, TanStack Query, Framer Motion and a modular component architecture
+- Custom playback experience with HLS loading, stream-source resolution and subtitle controls
+- TMDB-powered discovery, search, collections and personal libraries
+- NestJS API with caching, rate limiting and provider adapters
 
-### 3. [Aura Architecture Core](https://github.com/Nashid-k/aura-backend)
-*   **Description:** Modular REST API server built from the ground up to isolate rules from external components.
-*   **Architecture:** Node.js, Express, Domain-Driven Design (DDD).
-*   **Highlights:** Strict layer validations separating entity mappings, use cases, and interfaces.
+### [Axiom — Learning Platform](https://github.com/Nashid-k/axiom-e-learning)
+An AI-assisted learning application designed around structured learning paths, progress tracking and adaptive practice.
 
-### 4. [Streamly Cinematic UI](https://github.com/Nashid-k/streamly-frontend)
-*   **Description:** Responsive streaming dashboard catalog with multi-platform layout style matching (Netflix/Prime/Hotstar).
-*   **Architecture:** Next.js, TailwindCSS, Cypress E2E.
+- Next.js, React, TypeScript and MongoDB
+- Feature-oriented architecture for learning, search and progress workflows
+- Progress tracking, spaced-repetition utilities and weakness-analysis logic
+- Redis integration and API validation / monitoring utilities
 
----
+### [Grind — Career Tracker](https://github.com/Nashid-k/grind-client) · [Backend](https://github.com/Nashid-k/grind-server)
+A full-stack application for organizing job applications and career-development activity.
 
-## 🛠️ Stack & Engineering DNA
+- React client with dedicated application, preparation and progress areas
+- Express and MongoDB backend
+- Authentication and APIs for jobs, challenges, preparation, friends and leaderboard features
 
-| Category | Technologies |
-| :--- | :--- |
-| **Frontend** | React, Next.js (RSC), TypeScript, Tailwind CSS, Framer Motion, Monaco Editor |
-| **Backend & APIs** | Node.js, Express, NestJS, REST APIs, WebSockets, Yjs |
-| **Databases** | MongoDB (Mongoose), Upstash Redis, PostgreSQL |
-| **Infra & Testing** | Docker, GitHub Actions CI/CD, AWS EC2, Cypress, Jest, Vitest |
+### Career tools · [Frontend](https://github.com/Nashid-k/job-cover-letter-frontend) · [Backend](https://github.com/Nashid-k/job-cover-letter-backend)
+A portfolio and career-assistance project with job-description analysis, an AI chat interface, profile management and cover-letter workflows.
 
----
-
-## 📊 Analytics & Telemetry
-
-<p align="center">
-  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Calendar" width="80%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats-anuraghazra.vercel.app/api?username=Nashid-k&show_icons=true&theme=dark" alt="Metrics Stats" width="48%" />
-  &nbsp;
-  <img src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs/?username=Nashid-k&layout=compact&theme=dark" alt="Top Languages" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nashid-k&theme=dark" alt="GitHub Streak Stats" width="80%" />
-</p>
+- React, Vite, OpenAI SDK and Chart.js on the frontend
+- Express, MongoDB, authentication and AI service modules on the backend
 
 ---
 
-## 🐍 Contribution Activity Crawler
+## Other repositories
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Nashid-k/Nashid-k/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" width="90%" />
-</p>
+I also work on e-commerce, hospital-management, blogging, weather and smaller frontend projects. See the [repositories](https://github.com/Nashid-k?tab=repositories) for the full list.
 
----
+## Connect
 
-## 👾 Connect & Collaborations
-*   **Email:** [nashidk1999@gmail.com](mailto:nashidk1999@gmail.com)
-*   **LinkedIn:** [linkedin.com/in/nashid-mern](https://www.linkedin.com/in/nashid-mern)
-*   **Website Portfolio:** [nashid-portfolio.vercel.app](https://nashid-portfolio.vercel.app)
+- [LinkedIn](https://www.linkedin.com/in/nashid-mern)
+- [GitHub](https://github.com/Nashid-k)
