@@ -1,53 +1,59 @@
 # Nashid K
-### Full-Stack Software Engineer · React · Node.js · TypeScript · AI-enabled products
+### Full-Stack Software Engineer · React · Node.js · TypeScript · Real-time & AI-enabled applications
 
-I build web applications with an emphasis on thoughtful product experiences, maintainable architecture, and reliable backend systems. My work spans media streaming, learning platforms, career tools, and full-stack applications.
+I build full-stack products with a focus on useful user experiences, maintainable application architecture and backend reliability. My projects include a custom HLS streaming experience, a collaborative coding and learning workspace, career tools and commerce applications.
 
 - **Frontend:** React, Next.js, TypeScript, JavaScript, Tailwind CSS
 - **Backend:** Node.js, Express, NestJS, REST APIs
-- **Data:** MongoDB, Mongoose, Redis
-- **Engineering:** Authentication, API design, caching, performance, testing, deployment
+- **Data & realtime:** MongoDB, Mongoose, Redis, Socket.IO, WebSockets, Yjs
+- **AI & developer tooling:** Gemini, OpenAI SDK, Groq, Monaco Editor
+- **Quality & delivery:** Vitest, Jest, Docker, Vercel, Render
 
 ---
 
-## Selected projects
+## Featured engineering projects
 
-### [Streamly](https://github.com/Nashid-k/streamly-frontend) · [Backend](https://github.com/Nashid-k/streamly-backend)
-A media discovery and streaming experience built around a React 19 client and a NestJS API.
+### [Streamly — Streaming application](https://github.com/Nashid-k/streamly-frontend) · [API](https://github.com/Nashid-k/streamly-backend)
+A React-based media discovery and streaming application with a custom playback experience.
 
-- React, Vite, TanStack Query, Framer Motion and a modular component architecture
-- Custom playback experience with HLS loading, stream-source resolution and subtitle controls
-- TMDB-powered discovery, search, collections and personal libraries
-- NestJS API with caching, rate limiting and provider adapters
+- React 19, Vite 8, React Router and TanStack Query
+- HLS playback using hls.js, custom player loading and stream-source adapters
+- TMDB catalogue discovery, search, title details and personal libraries
+- Same-origin API functions for catalogue proxying, account flows and cloud sync
+- NestJS backend with provider adapters, caching and rate limiting
 
-### [Axiom — Learning Platform](https://github.com/Nashid-k/axiom-e-learning)
-An AI-assisted learning application designed around structured learning paths, progress tracking and adaptive practice.
+### [PrepHub — Collaborative coding workspace](https://github.com/Nashid-k/prephub-dev-frontend) · [Backend](https://github.com/Nashid-k/prephub-dev-backend)
+A coding-practice and learning platform combining an editor experience with collaborative and AI-assisted services.
 
-- Next.js, React, TypeScript and MongoDB
-- Feature-oriented architecture for learning, search and progress workflows
-- Progress tracking, spaced-repetition utilities and weakness-analysis logic
-- Redis integration and API validation / monitoring utilities
+- Monaco Editor, React, Yjs and Socket.IO client integrations
+- Express API modules for AI, compiler, curriculum, progress, search and authentication
+- Separate WebSocket and code-runner services
+- Redis-backed queues, vector-search integration and Docker-based service components
 
-### [Grind — Career Tracker](https://github.com/Nashid-k/grind-client) · [Backend](https://github.com/Nashid-k/grind-server)
+### [Grind — Career tracker](https://github.com/Nashid-k/grind-client) · [Backend](https://github.com/Nashid-k/grind-server)
 A full-stack application for organizing job applications and career-development activity.
 
-- React client with dedicated application, preparation and progress areas
+- React client with application, preparation and progress areas
 - Express and MongoDB backend
 - Authentication and APIs for jobs, challenges, preparation, friends and leaderboard features
 
-### Career tools · [Frontend](https://github.com/Nashid-k/job-cover-letter-frontend) · [Backend](https://github.com/Nashid-k/job-cover-letter-backend)
+### [Career tools](https://github.com/Nashid-k/job-cover-letter-frontend) · [API](https://github.com/Nashid-k/job-cover-letter-backend)
 A portfolio and career-assistance project with job-description analysis, an AI chat interface, profile management and cover-letter workflows.
 
 - React, Vite, OpenAI SDK and Chart.js on the frontend
 - Express, MongoDB, authentication and AI service modules on the backend
 
+### [Axiom learning project](https://github.com/Nashid-k/axiom-e-learning)
+A learning-platform codebase using Next.js, React, TypeScript and MongoDB, with feature-oriented learning and search modules.
+
 ---
 
-## Other repositories
+## More projects
 
-I also work on e-commerce, hospital-management, blogging, weather and smaller frontend projects. See the [repositories](https://github.com/Nashid-k?tab=repositories) for the full list.
+Explore the [full repository list](https://github.com/Nashid-k?tab=repositories) for e-commerce, hospital-management, blogging, weather and frontend experiments.
 
 ## Connect
 
+- [Portfolio](https://portfolio-v2-five-psi-90.vercel.app/)
 - [LinkedIn](https://www.linkedin.com/in/nashid-mern)
 - [GitHub](https://github.com/Nashid-k)
